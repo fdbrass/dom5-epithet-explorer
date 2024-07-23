@@ -9,28 +9,22 @@ use warnings;
 use File::Slurper qw/read_binary write_text/;
 use JSON qw//;
 
-my $FILENAME_EXE_X64 = 'binaries/Dominions596k.exe';
+my $FILENAME_EXE_X64 = 'binaries/Dominions6.18.exe';
 my $FILENAME_EPITHETS_OUT = 'src/lib/epithets.json';
 
 my $EPITHET_LENGTH = 0x20;
 
-my $blob = read_binary( $FILENAME_EXE_X64 );
+my $blob = read_binary( $FILENAME_EXE_X64 ) or die "couldn't open binary";
 
 # Find epithets array offset
 
-my $first_epithet_bytes = pack('H*', '200f444201000000120004000000000000000000340c0c000000000000000000' ); # maybe first 4 bytes (name offset) varies?
+my $first_epithet_bytes = pack('H*', '30454e4201000000120004000000000000000000340c0c000000000000000000' ); # maybe first 4 bytes (name offset) varies?
 my $EPITHETS_OFFSET = index $blob, $first_epithet_bytes;
 die 'first epithet not found' if $EPITHETS_OFFSET == -1;
 
 # Find strings offset ( image base 0x1400000000 + image base offset (0x1600 for 5.96k) )
 
-my $STRINGS_OFFSET = 0; 
-my $ix = -1;
-while(1) {
-	$ix = index( $blob, '! Who Stole the Fire', $ix + 1 );
-	last if $ix == -1;
-	$STRINGS_OFFSET = 0x142440f20 - $ix;
-}
+my $STRINGS_OFFSET = 0x140001800;
 
 # Read all epithets
 
@@ -39,7 +33,7 @@ for ( my $epithet_i = 0; ; $epithet_i++ ) {
 	my $epithet_bytes = substr( $blob, $EPITHETS_OFFSET + $epithet_i * $EPITHET_LENGTH, $EPITHET_LENGTH );
 	#say map { sprintf( "%02x", $_) } unpack 'C*', $epithet_bytes; # print epithet byte string
 	my ( $name_offset, @conditions_and_values ) = unpack 'Q<'.('s<'x12), $epithet_bytes;
-	my $name = get_cstring( $blob, $name_offset - $STRINGS_OFFSET );
+	my $name = get_cstring( $blob, $name_offset - $STRINGS_OFFSET);
 	last if $name eq 'end';
 
 	my @conditions = @conditions_and_values[0..5];
@@ -157,11 +151,7 @@ sub constraint_hash {
 	if ( $con ==    6 ) { return {'type' => 'misc minimum', field => 'awe',               'value' => $val } }
 	if ( $con ==    7 ) { return {'type' => 'misc minimum', field => 'strength',          'value' => $val } }
 	if ( $con ==   20 ) { return {'type' => 'misc minimum', field => 'eyes',              'value' => $val+2 } }
-	if ( $con ==   21 ) {
-		# TODO
-		warn "unknown condition: $con=$val";
-		return {'type' => 'unknown'};
-	}
+	if ( $con ==   21 ) { return {'type' => 'misc minimum', field => 'hp',                'value' => $val } }
 
 	# Minimum magic path
 	if ( $con == 1000 ) { return {'type' => 'magic path', 'field' => 'F', 'value' => $val } }
@@ -174,8 +164,8 @@ sub constraint_hash {
 	if ( $con == 1007 ) { return {'type' => 'magic path', 'field' => 'G', 'value' => $val } }
 	if ( $con == 1008 ) { return {'type' => 'magic path', 'field' => 'B', 'value' => $val } }
 	if ( $con == 1051 ) { return {'type' => 'magic paths', field => 'FAWE',      'value' => $val } } 
-	if ( $con == 1052 ) { return {'type' => 'magic paths', field => 'SDNB',      'value' => $val } }# TODO check how this changed with Glamor
-	if ( $con == 1053 ) { return {'type' => 'magic paths', field => 'FAWESDNB',  'value' => $val } }# TODO check how this changed with Glamor
+	if ( $con == 1052 ) { return {'type' => 'magic paths', field => 'SDNG',      'value' => $val } }# TODO check how this changed with Glamor
+	if ( $con == 1053 ) { return {'type' => 'magic paths', field => 'FAWESDNGB',  'value' => $val } }# TODO check how this changed with Glamor
 
 
 	# Max scale

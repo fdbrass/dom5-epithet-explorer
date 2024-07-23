@@ -292,7 +292,7 @@
             {
                "field" : "F",
                "type" : "magic path",
-               "value" : 9
+               "value" : 7
             }
          ],
          "id" : 19,
@@ -303,7 +303,7 @@
             {
                "field" : "F",
                "type" : "magic path",
-               "value" : 9
+               "value" : 7
             },
             {
                "field" : "S",
@@ -877,7 +877,7 @@
             {
                "field" : "A",
                "type" : "magic path",
-               "value" : 7
+               "value" : 6
             },
             {
                "field" : "Turmoil",
@@ -893,7 +893,7 @@
             {
                "field" : "A",
                "type" : "magic path",
-               "value" : 7
+               "value" : 6
             },
             {
                "field" : "Turmoil",
@@ -909,7 +909,7 @@
             {
                "field" : "A",
                "type" : "magic path",
-               "value" : 9
+               "value" : 7
             },
             {
                "field" : "S",
@@ -930,7 +930,7 @@
             {
                "field" : "A",
                "type" : "magic path",
-               "value" : 9
+               "value" : 7
             }
          ],
          "id" : 57,
@@ -942,9 +942,25 @@
                "field" : "A",
                "type" : "magic path",
                "value" : 6
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : 4
             }
          ],
          "id" : 58,
+         "string" : "Supporter of the Sky"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "A",
+               "type" : "magic path",
+               "value" : 6
+            }
+         ],
+         "id" : 59,
          "string" : "Sky of all the People"
       },
       {
@@ -955,7 +971,7 @@
                "value" : 5
             }
          ],
-         "id" : 59,
+         "id" : 60,
          "string" : "! who Mounts the Clouds"
       },
       {
@@ -966,7 +982,7 @@
                "value" : 6
             }
          ],
-         "id" : 60,
+         "id" : 61,
          "string" : "Great Hurricane of the Heavens"
       },
       {
@@ -982,7 +998,7 @@
                "value" : 4
             }
          ],
-         "id" : 61,
+         "id" : 62,
          "string" : "# of the Breath of Life"
       },
       {
@@ -1002,7 +1018,7 @@
                "value" : 1
             }
          ],
-         "id" : 62,
+         "id" : 63,
          "string" : "# of Wind on the Waters"
       },
       {
@@ -1018,7 +1034,7 @@
                "value" : 4
             }
          ],
-         "id" : 63,
+         "id" : 64,
          "string" : "the Breathmaker"
       },
       {
@@ -1034,7 +1050,7 @@
                "value" : 3
             }
          ],
-         "id" : 64,
+         "id" : 65,
          "string" : "Bull of the Storms"
       },
       {
@@ -1045,24 +1061,8 @@
                "value" : 7
             }
          ],
-         "id" : 65,
-         "string" : "the # of the Power of the Air"
-      },
-      {
-         "constraints" : [
-            {
-               "field" : "A",
-               "type" : "magic path",
-               "value" : 5
-            },
-            {
-               "field" : "Turmoil",
-               "type" : "scale",
-               "value" : 1
-            }
-         ],
          "id" : 66,
-         "string" : "the Great Deceiver"
+         "string" : "the # of the Power of the Air"
       },
       {
          "constraints" : [
@@ -1078,13 +1078,23 @@
       {
          "constraints" : [
             {
-               "field" : "W",
+               "field" : "A",
+               "type" : "magic path",
+               "value" : 5
+            },
+            {
+               "field" : "F",
                "type" : "magic path",
                "value" : 4
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
             }
          ],
          "id" : 68,
-         "string" : "# of Water"
+         "string" : "Fiery Black Cloud"
       },
       {
          "constraints" : [
@@ -1095,6 +1105,17 @@
             }
          ],
          "id" : 69,
+         "string" : "# of Water"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "W",
+               "type" : "magic path",
+               "value" : 4
+            }
+         ],
+         "id" : 70,
          "string" : "the # Knowing the Waters"
       },
       {
@@ -1110,7 +1131,7 @@
                "value" : 2
             }
          ],
-         "id" : 70,
+         "id" : 71,
          "string" : "# of Deadly Waters"
       },
       {
@@ -1121,7 +1142,7 @@
                "value" : 2
             }
          ],
-         "id" : 71,
+         "id" : 72,
          "string" : "# of Fishermen"
       },
       {
@@ -1137,7 +1158,7 @@
                "value" : 3
             }
          ],
-         "id" : 72,
+         "id" : 73,
          "string" : "Harvester of Sailors"
       },
       {
@@ -1153,7 +1174,7 @@
                "value" : 3
             }
          ],
-         "id" : 73,
+         "id" : 74,
          "string" : "Friend of Sailors"
       },
       {
@@ -1174,7 +1195,7 @@
                "value" : 1
             }
          ],
-         "id" : 74,
+         "id" : 75,
          "string" : "Divine Inspector of Canals"
       },
       {
@@ -1190,7 +1211,7 @@
                "value" : 3
             }
          ],
-         "id" : 75,
+         "id" : 76,
          "string" : "# of Navigation"
       },
       {
@@ -1201,7 +1222,7 @@
                "value" : 4
             }
          ],
-         "id" : 76,
+         "id" : 77,
          "string" : "# of Rivers"
       },
       {
@@ -1212,7 +1233,7 @@
                "value" : 4
             }
          ],
-         "id" : 77,
+         "id" : 78,
          "string" : "# of Rain"
       },
       {
@@ -1228,7 +1249,7 @@
                "value" : 4
             }
          ],
-         "id" : 78,
+         "id" : 79,
          "string" : "the Boiling Spirit"
       },
       {
@@ -1244,7 +1265,7 @@
                "value" : 4
             }
          ],
-         "id" : 79,
+         "id" : 80,
          "string" : "Beverage"
       },
       {
@@ -1260,7 +1281,7 @@
                "value" : 2
             }
          ],
-         "id" : 80,
+         "id" : 81,
          "string" : "# of the Raging Seas"
       },
       {
@@ -1281,7 +1302,7 @@
                "value" : 2
             }
          ],
-         "id" : 81,
+         "id" : 82,
          "string" : "# of the Eternal Sea"
       },
       {
@@ -1292,7 +1313,7 @@
                "value" : 4
             }
          ],
-         "id" : 82,
+         "id" : 83,
          "string" : "# of the Waves"
       },
       {
@@ -1308,7 +1329,7 @@
                "value" : 2
             }
          ],
-         "id" : 83,
+         "id" : 84,
          "string" : "# of Frost"
       },
       {
@@ -1324,7 +1345,7 @@
                "value" : 2
             }
          ],
-         "id" : 84,
+         "id" : 85,
          "string" : "# of Ice"
       },
       {
@@ -1335,7 +1356,7 @@
                "value" : 2
             }
          ],
-         "id" : 85,
+         "id" : 86,
          "string" : "# of Winter"
       },
       {
@@ -1346,7 +1367,7 @@
                "value" : 2
             }
          ],
-         "id" : 86,
+         "id" : 87,
          "string" : "the Long Winter"
       },
       {
@@ -1362,7 +1383,7 @@
                "value" : 4
             }
          ],
-         "id" : 87,
+         "id" : 88,
          "string" : "# of the Winter Realms"
       },
       {
@@ -1383,7 +1404,7 @@
                "value" : 3
             }
          ],
-         "id" : 88,
+         "id" : 89,
          "string" : "# of the Frozen Waste"
       },
       {
@@ -1394,7 +1415,7 @@
                "value" : 4
             }
          ],
-         "id" : 89,
+         "id" : 90,
          "string" : "Turner of the Flood"
       },
       {
@@ -1410,7 +1431,7 @@
                "value" : 4
             }
          ],
-         "id" : 90,
+         "id" : 91,
          "string" : "# of the Ocean Underneath"
       },
       {
@@ -1426,7 +1447,7 @@
                "value" : 2
             }
          ],
-         "id" : 91,
+         "id" : 92,
          "string" : "Keeper of the Water Dead"
       },
       {
@@ -1437,7 +1458,7 @@
                "value" : 9
             }
          ],
-         "id" : 92,
+         "id" : 93,
          "string" : "# of the Oceans"
       },
       {
@@ -1448,7 +1469,7 @@
                "value" : 9
             }
          ],
-         "id" : 93,
+         "id" : 94,
          "string" : "# of Primordial Waters"
       },
       {
@@ -1459,7 +1480,7 @@
                "value" : 9
             }
          ],
-         "id" : 94,
+         "id" : 95,
          "string" : "# of Primeval Depths"
       },
       {
@@ -1470,7 +1491,7 @@
                "value" : 6
             }
          ],
-         "id" : 95,
+         "id" : 96,
          "string" : "# of all Sources of Water"
       },
       {
@@ -1485,7 +1506,7 @@
                "value" : "female"
             }
          ],
-         "id" : 96,
+         "id" : 97,
          "string" : "the Sea Mother"
       },
       {
@@ -1505,7 +1526,7 @@
                "value" : "female"
             }
          ],
-         "id" : 97,
+         "id" : 98,
          "string" : "the Sea Hag"
       },
       {
@@ -1516,7 +1537,7 @@
                "value" : 5
             }
          ],
-         "id" : 98,
+         "id" : 99,
          "string" : "the Whirlpool"
       },
       {
@@ -1532,7 +1553,7 @@
                "value" : 2
             }
          ],
-         "id" : 99,
+         "id" : 100,
          "string" : "Ruler of the Ocean's Surface"
       },
       {
@@ -1547,7 +1568,7 @@
                "value" : 4
             }
          ],
-         "id" : 100,
+         "id" : 101,
          "string" : "Mother of Fishes"
       },
       {
@@ -1558,7 +1579,7 @@
                "value" : 4
             }
          ],
-         "id" : 101,
+         "id" : 102,
          "string" : "Opener of the Wells"
       },
       {
@@ -1578,7 +1599,7 @@
                "value" : "female"
             }
          ],
-         "id" : 102,
+         "id" : 103,
          "string" : "Smotherer of Life"
       },
       {
@@ -1593,7 +1614,7 @@
                "value" : "female"
             }
          ],
-         "id" : 103,
+         "id" : 104,
          "string" : "the Embracer"
       },
       {
@@ -1608,7 +1629,7 @@
                "value" : "female"
             }
          ],
-         "id" : 104,
+         "id" : 105,
          "string" : "Lady of Embracing"
       },
       {
@@ -1623,7 +1644,7 @@
                "value" : "female"
             }
          ],
-         "id" : 105,
+         "id" : 106,
          "string" : "She who Embraces"
       },
       {
@@ -1639,7 +1660,7 @@
                "value" : 1
             }
          ],
-         "id" : 106,
+         "id" : 107,
          "string" : "! who Strangles"
       },
       {
@@ -1655,7 +1676,7 @@
                "value" : 1
             }
          ],
-         "id" : 107,
+         "id" : 108,
          "string" : "! who Shoots Forth"
       },
       {
@@ -1671,7 +1692,7 @@
                "value" : 3
             }
          ],
-         "id" : 108,
+         "id" : 109,
          "string" : "! who Runs like an Arrow"
       },
       {
@@ -1682,7 +1703,7 @@
                "value" : 4
             }
          ],
-         "id" : 109,
+         "id" : 110,
          "string" : "Fountain of All Waters"
       },
       {
@@ -1702,7 +1723,7 @@
                "value" : "female"
             }
          ],
-         "id" : 110,
+         "id" : 111,
          "string" : "Lady of Shipwrecks"
       },
       {
@@ -1713,7 +1734,7 @@
                "value" : 3
             }
          ],
-         "id" : 111,
+         "id" : 112,
          "string" : "The First Angler"
       },
       {
@@ -1729,7 +1750,7 @@
                "value" : 2
             }
          ],
-         "id" : 112,
+         "id" : 113,
          "string" : "Patron of Smiths"
       },
       {
@@ -1740,7 +1761,7 @@
                "value" : 7
             }
          ],
-         "id" : 113,
+         "id" : 114,
          "string" : "the Divine Smith"
       },
       {
@@ -1751,7 +1772,7 @@
                "value" : 3
             }
          ],
-         "id" : 114,
+         "id" : 115,
          "string" : "# of Forgiving"
       },
       {
@@ -1767,7 +1788,7 @@
                "value" : 2
             }
          ],
-         "id" : 115,
+         "id" : 116,
          "string" : "the Coppercaster of the Gods"
       },
       {
@@ -1783,7 +1804,7 @@
                "value" : 2
             }
          ],
-         "id" : 116,
+         "id" : 117,
          "string" : "# of Bricks"
       },
       {
@@ -1798,7 +1819,7 @@
                "value" : 13
             }
          ],
-         "id" : 117,
+         "id" : 118,
          "string" : "# of the Foothills"
       },
       {
@@ -1818,7 +1839,7 @@
                "value" : 13
             }
          ],
-         "id" : 118,
+         "id" : 119,
          "string" : "# of the Soil"
       },
       {
@@ -1833,7 +1854,7 @@
                "value" : 13
             }
          ],
-         "id" : 119,
+         "id" : 120,
          "string" : "# of the Stony Ground"
       },
       {
@@ -1848,7 +1869,7 @@
                "value" : 13
             }
          ],
-         "id" : 120,
+         "id" : 121,
          "string" : "# of Mountains"
       },
       {
@@ -1859,7 +1880,7 @@
                "value" : 4
             }
          ],
-         "id" : 121,
+         "id" : 122,
          "string" : "# of Metals"
       },
       {
@@ -1874,7 +1895,7 @@
                "value" : 8
             }
          ],
-         "id" : 122,
+         "id" : 123,
          "string" : "# of Inventions"
       },
       {
@@ -1894,7 +1915,7 @@
                "value" : 8
             }
          ],
-         "id" : 123,
+         "id" : 124,
          "string" : "the Inventor of Science"
       },
       {
@@ -1905,7 +1926,7 @@
                "value" : 4
             }
          ],
-         "id" : 124,
+         "id" : 125,
          "string" : "# of the Crafts"
       },
       {
@@ -1916,7 +1937,7 @@
                "value" : 6
             }
          ],
-         "id" : 125,
+         "id" : 126,
          "string" : "# of Earthquakes"
       },
       {
@@ -1927,7 +1948,7 @@
                "value" : 6
             }
          ],
-         "id" : 126,
+         "id" : 127,
          "string" : "the Earth Monster"
       },
       {
@@ -1938,7 +1959,7 @@
                "value" : 4
             }
          ],
-         "id" : 127,
+         "id" : 128,
          "string" : "the Armorer"
       },
       {
@@ -1958,7 +1979,7 @@
                "value" : "male"
             }
          ],
-         "id" : 128,
+         "id" : 129,
          "string" : "the Unmoving Master"
       },
       {
@@ -1974,7 +1995,7 @@
                "value" : 2
             }
          ],
-         "id" : 129,
+         "id" : 130,
          "string" : "the Unshakable"
       },
       {
@@ -1990,7 +2011,7 @@
                "value" : 1
             }
          ],
-         "id" : 130,
+         "id" : 131,
          "string" : "# of Tremors"
       },
       {
@@ -2005,7 +2026,7 @@
                "value" : 10
             }
          ],
-         "id" : 131,
+         "id" : 132,
          "string" : "# of Might"
       },
       {
@@ -2020,7 +2041,7 @@
                "value" : 10
             }
          ],
-         "id" : 132,
+         "id" : 133,
          "string" : "# of Strength"
       },
       {
@@ -2040,7 +2061,7 @@
                "value" : 10
             }
          ],
-         "id" : 133,
+         "id" : 134,
          "string" : "the Personification of Strength"
       },
       {
@@ -2051,7 +2072,7 @@
                "value" : 4
             }
          ],
-         "id" : 134,
+         "id" : 135,
          "string" : "the Fortifier"
       },
       {
@@ -2062,7 +2083,7 @@
                "value" : 9
             }
          ],
-         "id" : 135,
+         "id" : 136,
          "string" : "the Hammer of Gaia"
       },
       {
@@ -2081,7 +2102,7 @@
                "value" : 13
             }
          ],
-         "id" : 136,
+         "id" : 137,
          "string" : "the Mountain Lord"
       },
       {
@@ -2097,7 +2118,7 @@
                "value" : 4
             }
          ],
-         "id" : 137,
+         "id" : 138,
          "string" : "Guardian of Existence"
       },
       {
@@ -2113,8 +2134,29 @@
                "value" : 6
             }
          ],
-         "id" : 138,
+         "id" : 139,
          "string" : "Shaper of Existence"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
+            },
+            {
+               "field" : "E",
+               "type" : "magic path",
+               "value" : 6
+            },
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : 6
+            }
+         ],
+         "id" : 140,
+         "string" : "The Form of All Existence"
       },
       {
          "constraints" : [
@@ -2129,7 +2171,7 @@
                "value" : 4
             }
          ],
-         "id" : 139,
+         "id" : 141,
          "string" : "! Who Seals the Gates of Death"
       },
       {
@@ -2145,7 +2187,7 @@
                "value" : 1
             }
          ],
-         "id" : 140,
+         "id" : 142,
          "string" : "Patron of Artisans"
       },
       {
@@ -2161,7 +2203,7 @@
                "value" : 4
             }
          ],
-         "id" : 141,
+         "id" : 143,
          "string" : "the Hungry Earth"
       },
       {
@@ -2172,7 +2214,7 @@
                "value" : 7
             }
          ],
-         "id" : 142,
+         "id" : 144,
          "string" : "the Maker of Mountains"
       },
       {
@@ -2193,7 +2235,7 @@
                "value" : 2
             }
          ],
-         "id" : 143,
+         "id" : 145,
          "string" : "# of the Forges"
       },
       {
@@ -2209,7 +2251,7 @@
                "value" : 4
             }
          ],
-         "id" : 144,
+         "id" : 146,
          "string" : "! Who Tempers the Spirit"
       },
       {
@@ -2224,7 +2266,7 @@
                "value" : "female"
             }
          ],
-         "id" : 145,
+         "id" : 147,
          "string" : "Earth Mother"
       },
       {
@@ -2239,7 +2281,7 @@
                "value" : 14
             }
          ],
-         "id" : 146,
+         "id" : 148,
          "string" : "the Rock"
       },
       {
@@ -2254,7 +2296,7 @@
                "value" : 14
             }
          ],
-         "id" : 147,
+         "id" : 149,
          "string" : "# of the Rock"
       },
       {
@@ -2270,7 +2312,7 @@
                "value" : 6
             }
          ],
-         "id" : 148,
+         "id" : 150,
          "string" : "the One who Contains Everything"
       },
       {
@@ -2286,7 +2328,7 @@
                "value" : 3
             }
          ],
-         "id" : 149,
+         "id" : 151,
          "string" : "# of the Mountain Springs"
       },
       {
@@ -2297,7 +2339,7 @@
                "value" : 6
             }
          ],
-         "id" : 150,
+         "id" : 152,
          "string" : "# of the Greater Earth"
       },
       {
@@ -2308,7 +2350,7 @@
                "value" : 4
             }
          ],
-         "id" : 151,
+         "id" : 153,
          "string" : "Protector of the Holy Mountain"
       },
       {
@@ -2319,7 +2361,7 @@
                "value" : 4
             }
          ],
-         "id" : 152,
+         "id" : 154,
          "string" : "# of Dirt"
       },
       {
@@ -2335,7 +2377,7 @@
                "value" : 3
             }
          ],
-         "id" : 153,
+         "id" : 155,
          "string" : "! who is on the Mountain"
       },
       {
@@ -2361,7 +2403,7 @@
                "value" : 1
             }
          ],
-         "id" : 154,
+         "id" : 156,
          "string" : "the Great Potter"
       },
       {
@@ -2372,7 +2414,7 @@
                "value" : 6
             }
          ],
-         "id" : 155,
+         "id" : 157,
          "string" : "Great # of the Earth"
       },
       {
@@ -2398,7 +2440,7 @@
                "value" : 1
             }
          ],
-         "id" : 156,
+         "id" : 158,
          "string" : "the Soul Forger"
       },
       {
@@ -2414,7 +2456,7 @@
                "value" : 0
             }
          ],
-         "id" : 157,
+         "id" : 159,
          "string" : "Warrior Against the Sun"
       },
       {
@@ -2430,7 +2472,7 @@
                "value" : 3
             }
          ],
-         "id" : 158,
+         "id" : 160,
          "string" : "! who Hungers for the Sun"
       },
       {
@@ -2450,7 +2492,7 @@
                "value" : 5
             }
          ],
-         "id" : 159,
+         "id" : 161,
          "string" : "# of Darkness"
       },
       {
@@ -2465,7 +2507,7 @@
                "value" : 5
             }
          ],
-         "id" : 160,
+         "id" : 162,
          "string" : "the Shadow Over All"
       },
       {
@@ -2481,7 +2523,7 @@
                "value" : 3
             }
          ],
-         "id" : 161,
+         "id" : 163,
          "string" : "! Who Loves not the Light"
       },
       {
@@ -2497,7 +2539,7 @@
                "value" : 4
             }
          ],
-         "id" : 162,
+         "id" : 164,
          "string" : "# of Shadows"
       },
       {
@@ -2508,7 +2550,7 @@
                "value" : 4
             }
          ],
-         "id" : 163,
+         "id" : 165,
          "string" : "# of Disease"
       },
       {
@@ -2523,7 +2565,7 @@
                "value" : "female"
             }
          ],
-         "id" : 164,
+         "id" : 166,
          "string" : "! who Gave Birth to Death"
       },
       {
@@ -2538,7 +2580,7 @@
                "value" : 17
             }
          ],
-         "id" : 165,
+         "id" : 167,
          "string" : "# of the Dead"
       },
       {
@@ -2553,7 +2595,7 @@
                "value" : 17
             }
          ],
-         "id" : 166,
+         "id" : 168,
          "string" : "Guardian of the Dead"
       },
       {
@@ -2569,7 +2611,7 @@
                "value" : 1
             }
          ],
-         "id" : 167,
+         "id" : 169,
          "string" : "# of Famine"
       },
       {
@@ -2589,7 +2631,7 @@
                "value" : 16
             }
          ],
-         "id" : 168,
+         "id" : 170,
          "string" : "# of Plagues"
       },
       {
@@ -2613,7 +2655,7 @@
                "value" : "female"
             }
          ],
-         "id" : 169,
+         "id" : 171,
          "string" : "Mother of the Plague"
       },
       {
@@ -2629,7 +2671,7 @@
                "value" : 1
             }
          ],
-         "id" : 170,
+         "id" : 172,
          "string" : "# of Pestilence"
       },
       {
@@ -2645,7 +2687,7 @@
                "value" : 2
             }
          ],
-         "id" : 171,
+         "id" : 173,
          "string" : "# of Death and Rebirth"
       },
       {
@@ -2661,7 +2703,7 @@
                "value" : 1
             }
          ],
-         "id" : 172,
+         "id" : 174,
          "string" : "# of Decay"
       },
       {
@@ -2677,7 +2719,7 @@
                "value" : 4
             }
          ],
-         "id" : 173,
+         "id" : 175,
          "string" : "# of Corruption"
       },
       {
@@ -2698,7 +2740,7 @@
                "value" : 3
             }
          ],
-         "id" : 174,
+         "id" : 176,
          "string" : "# of the Night Sky"
       },
       {
@@ -2718,7 +2760,7 @@
                "value" : 24
             }
          ],
-         "id" : 175,
+         "id" : 177,
          "string" : "the Eternal Judge"
       },
       {
@@ -2738,7 +2780,7 @@
                "value" : 24
             }
          ],
-         "id" : 176,
+         "id" : 178,
          "string" : "Judge of the Dead"
       },
       {
@@ -2749,7 +2791,7 @@
                "value" : 4
             }
          ],
-         "id" : 177,
+         "id" : 179,
          "string" : "the Watcher of the Gallows"
       },
       {
@@ -2765,7 +2807,7 @@
                "value" : 2
             }
          ],
-         "id" : 178,
+         "id" : 180,
          "string" : "# of Dark Magics"
       },
       {
@@ -2780,7 +2822,7 @@
                "value" : "male"
             }
          ],
-         "id" : 179,
+         "id" : 181,
          "string" : "the King at the Crossroads"
       },
       {
@@ -2795,7 +2837,7 @@
                "value" : "female"
             }
          ],
-         "id" : 180,
+         "id" : 182,
          "string" : "the Lady at the Crossroads"
       },
       {
@@ -2806,7 +2848,7 @@
                "value" : 4
             }
          ],
-         "id" : 181,
+         "id" : 183,
          "string" : "# of Terror"
       },
       {
@@ -2817,7 +2859,7 @@
                "value" : 4
             }
          ],
-         "id" : 182,
+         "id" : 184,
          "string" : "the Harvester"
       },
       {
@@ -2828,7 +2870,7 @@
                "value" : 4
             }
          ],
-         "id" : 183,
+         "id" : 185,
          "string" : "# of Untimely Death"
       },
       {
@@ -2839,7 +2881,7 @@
                "value" : 4
             }
          ],
-         "id" : 184,
+         "id" : 186,
          "string" : "# of Suicides"
       },
       {
@@ -2850,7 +2892,7 @@
                "value" : 1
             }
          ],
-         "id" : 185,
+         "id" : 187,
          "string" : "the Terror of the Tomb"
       },
       {
@@ -2861,7 +2903,7 @@
                "value" : 1
             }
          ],
-         "id" : 186,
+         "id" : 188,
          "string" : "the Lurker in the Crypt"
       },
       {
@@ -2886,7 +2928,7 @@
                "value" : 22
             }
          ],
-         "id" : 187,
+         "id" : 189,
          "string" : "the Collector of Souls"
       },
       {
@@ -2902,7 +2944,7 @@
                "value" : 0
             }
          ],
-         "id" : 188,
+         "id" : 190,
          "string" : "Guide of Souls"
       },
       {
@@ -2923,7 +2965,7 @@
                "value" : 4
             }
          ],
-         "id" : 189,
+         "id" : 191,
          "string" : "Star of the Dead"
       },
       {
@@ -2938,7 +2980,7 @@
                "value" : 3
             }
          ],
-         "id" : 190,
+         "id" : 192,
          "string" : "the Personification of Death"
       },
       {
@@ -2953,7 +2995,7 @@
                "value" : 3
             }
          ],
-         "id" : 191,
+         "id" : 193,
          "string" : "# of Death"
       },
       {
@@ -2973,7 +3015,7 @@
                "value" : 4
             }
          ],
-         "id" : 192,
+         "id" : 194,
          "string" : "# of the Afterlife"
       },
       {
@@ -2993,7 +3035,7 @@
                "value" : 4
             }
          ],
-         "id" : 193,
+         "id" : 195,
          "string" : "# of the Underworld"
       },
       {
@@ -3013,7 +3055,7 @@
                "value" : "male"
             }
          ],
-         "id" : 194,
+         "id" : 196,
          "string" : "the Dead and Undying God"
       },
       {
@@ -3033,7 +3075,7 @@
                "value" : "female"
             }
          ],
-         "id" : 195,
+         "id" : 197,
          "string" : "the Dead and Undying Goddess"
       },
       {
@@ -3053,7 +3095,7 @@
                "value" : 5
             }
          ],
-         "id" : 196,
+         "id" : 198,
          "string" : "# of Darkness and Destruction"
       },
       {
@@ -3069,7 +3111,7 @@
                "value" : 0
             }
          ],
-         "id" : 197,
+         "id" : 199,
          "string" : "Patron of Necromancers"
       },
       {
@@ -3085,7 +3127,7 @@
                "value" : 4
             }
          ],
-         "id" : 198,
+         "id" : 200,
          "string" : "the Grey One"
       },
       {
@@ -3096,7 +3138,7 @@
                "value" : 4
             }
          ],
-         "id" : 199,
+         "id" : 201,
          "string" : "the One Always at the Shoulder"
       },
       {
@@ -3107,7 +3149,7 @@
                "value" : 4
             }
          ],
-         "id" : 200,
+         "id" : 202,
          "string" : "the Shadow"
       },
       {
@@ -3123,7 +3165,7 @@
                "value" : 1
             }
          ],
-         "id" : 201,
+         "id" : 203,
          "string" : "the Pockmarked Savior"
       },
       {
@@ -3134,7 +3176,7 @@
                "value" : 4
             }
          ],
-         "id" : 202,
+         "id" : 204,
          "string" : "Gatherer of the Dead"
       },
       {
@@ -3150,7 +3192,7 @@
                "value" : 3
             }
          ],
-         "id" : 203,
+         "id" : 205,
          "string" : "Friend of the Dead"
       },
       {
@@ -3166,7 +3208,7 @@
                "value" : 1
             }
          ],
-         "id" : 204,
+         "id" : 206,
          "string" : "the Stealer of Corpses"
       },
       {
@@ -3182,7 +3224,7 @@
                "value" : 1
             }
          ],
-         "id" : 205,
+         "id" : 207,
          "string" : "Persecutor and Destroyer of Youth"
       },
       {
@@ -3198,7 +3240,7 @@
                "value" : 6
             }
          ],
-         "id" : 206,
+         "id" : 208,
          "string" : "# of the City of the Dead"
       },
       {
@@ -3214,7 +3256,7 @@
                "value" : 2
             }
          ],
-         "id" : 207,
+         "id" : 209,
          "string" : "Foremost of the Westerners"
       },
       {
@@ -3225,7 +3267,7 @@
                "value" : 4
             }
          ],
-         "id" : 208,
+         "id" : 210,
          "string" : "the Shadow of Death"
       },
       {
@@ -3245,7 +3287,7 @@
                "value" : 1
             }
          ],
-         "id" : 209,
+         "id" : 211,
          "string" : "the Old Quiet Lady"
       },
       {
@@ -3265,8 +3307,24 @@
                "value" : 1
             }
          ],
-         "id" : 210,
+         "id" : 212,
          "string" : "Pure Queen of Them Below"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "D",
+               "type" : "magic path",
+               "value" : 6
+            },
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
+         "id" : 213,
+         "string" : "Ruler of the Dead"
       },
       {
          "constraints" : [
@@ -3286,7 +3344,7 @@
                "value" : 1
             }
          ],
-         "id" : 211,
+         "id" : 214,
          "string" : "# of Eclipses"
       },
       {
@@ -3297,7 +3355,7 @@
                "value" : 5
             }
          ],
-         "id" : 212,
+         "id" : 215,
          "string" : "the Evening Star"
       },
       {
@@ -3308,7 +3366,7 @@
                "value" : 5
             }
          ],
-         "id" : 213,
+         "id" : 216,
          "string" : "the Morning Star"
       },
       {
@@ -3324,7 +3382,7 @@
                "value" : 1
             }
          ],
-         "id" : 214,
+         "id" : 217,
          "string" : "Divine Scribe"
       },
       {
@@ -3345,7 +3403,7 @@
                "value" : 3
             }
          ],
-         "id" : 215,
+         "id" : 218,
          "string" : "Crystallizer of Dreams"
       },
       {
@@ -3365,7 +3423,7 @@
                "value" : 89
             }
          ],
-         "id" : 216,
+         "id" : 219,
          "string" : "the Maker of Moons"
       },
       {
@@ -3385,7 +3443,7 @@
                "value" : 127
             }
          ],
-         "id" : 217,
+         "id" : 220,
          "string" : "the Maker of Moons"
       },
       {
@@ -3405,7 +3463,7 @@
                "value" : "male"
             }
          ],
-         "id" : 218,
+         "id" : 221,
          "string" : "Father of Horrors"
       },
       {
@@ -3426,7 +3484,7 @@
                "value" : 4
             }
          ],
-         "id" : 219,
+         "id" : 222,
          "string" : "Most Evil Mind"
       },
       {
@@ -3442,7 +3500,7 @@
                "value" : 1
             }
          ],
-         "id" : 220,
+         "id" : 223,
          "string" : "# of Insanity"
       },
       {
@@ -3463,7 +3521,7 @@
                "value" : 1
             }
          ],
-         "id" : 221,
+         "id" : 224,
          "string" : "Protector from Insanity"
       },
       {
@@ -3479,7 +3537,7 @@
                "value" : 3
             }
          ],
-         "id" : 222,
+         "id" : 225,
          "string" : "# of the Void"
       },
       {
@@ -3499,7 +3557,7 @@
                "value" : 3
             }
          ],
-         "id" : 223,
+         "id" : 226,
          "string" : "Shining Boat of Heaven"
       },
       {
@@ -3519,7 +3577,7 @@
                "value" : 3
             }
          ],
-         "id" : 224,
+         "id" : 227,
          "string" : "# of the Barge of Heaven"
       },
       {
@@ -3530,7 +3588,7 @@
                "value" : 5
             }
          ],
-         "id" : 225,
+         "id" : 228,
          "string" : "Opener of the Ways"
       },
       {
@@ -3550,7 +3608,7 @@
                "value" : 5
             }
          ],
-         "id" : 226,
+         "id" : 229,
          "string" : "# of Fortune"
       },
       {
@@ -3566,7 +3624,7 @@
                "value" : 1
             }
          ],
-         "id" : 227,
+         "id" : 230,
          "string" : "Keeper of the Celestial Records"
       },
       {
@@ -3577,7 +3635,7 @@
                "value" : 4
             }
          ],
-         "id" : 228,
+         "id" : 231,
          "string" : "# of Arcane Mysteries"
       },
       {
@@ -3601,7 +3659,7 @@
                "value" : 5
             }
          ],
-         "id" : 229,
+         "id" : 232,
          "string" : "Lord of Luck"
       },
       {
@@ -3625,7 +3683,7 @@
                "value" : 5
             }
          ],
-         "id" : 230,
+         "id" : 233,
          "string" : "Lady of Luck"
       },
       {
@@ -3636,7 +3694,7 @@
                "value" : 4
             }
          ],
-         "id" : 231,
+         "id" : 234,
          "string" : "# of Stellar Lights"
       },
       {
@@ -3647,7 +3705,7 @@
                "value" : 4
             }
          ],
-         "id" : 232,
+         "id" : 235,
          "string" : "the Afterthought"
       },
       {
@@ -3663,7 +3721,7 @@
                "value" : 4
             }
          ],
-         "id" : 233,
+         "id" : 236,
          "string" : "# of Astral Fires"
       },
       {
@@ -3679,7 +3737,7 @@
                "value" : 2
             }
          ],
-         "id" : 234,
+         "id" : 237,
          "string" : "Dispenser of Fate"
       },
       {
@@ -3690,7 +3748,7 @@
                "value" : 5
             }
          ],
-         "id" : 235,
+         "id" : 238,
          "string" : "# of the Celestial Bodies"
       },
       {
@@ -3706,7 +3764,7 @@
                "value" : 4
             }
          ],
-         "id" : 236,
+         "id" : 239,
          "string" : "# of the Heavenly Fires"
       },
       {
@@ -3721,7 +3779,7 @@
                "value" : 6
             }
          ],
-         "id" : 237,
+         "id" : 240,
          "string" : "Guardian of the Tablets of Destiny"
       },
       {
@@ -3736,7 +3794,7 @@
                "value" : 6
             }
          ],
-         "id" : 238,
+         "id" : 241,
          "string" : "# of Destiny"
       },
       {
@@ -3751,7 +3809,7 @@
                "value" : 6
             }
          ],
-         "id" : 239,
+         "id" : 242,
          "string" : "# of Fate"
       },
       {
@@ -3766,7 +3824,7 @@
                "value" : 6
             }
          ],
-         "id" : 240,
+         "id" : 243,
          "string" : "Director of the World"
       },
       {
@@ -3786,7 +3844,7 @@
                "value" : 6
             }
          ],
-         "id" : 241,
+         "id" : 244,
          "string" : "! Who Holds the Fate of All"
       },
       {
@@ -3797,7 +3855,7 @@
                "value" : 6
             },
             {
-               "field" : "SDNB",
+               "field" : "SDNG",
                "type" : "magic paths",
                "value" : 1
             },
@@ -3806,7 +3864,7 @@
                "value" : 18
             }
          ],
-         "id" : 242,
+         "id" : 245,
          "string" : "# of Immortal Wisdom"
       },
       {
@@ -3821,7 +3879,7 @@
                "value" : "female"
             }
          ],
-         "id" : 243,
+         "id" : 246,
          "string" : "! who Gave Birth to Fate"
       },
       {
@@ -3836,7 +3894,7 @@
                "value" : "female"
             }
          ],
-         "id" : 244,
+         "id" : 247,
          "string" : "! who Gave Birth to Time"
       },
       {
@@ -3851,7 +3909,7 @@
                "value" : "male"
             }
          ],
-         "id" : 245,
+         "id" : 248,
          "string" : "the Undeceivable God"
       },
       {
@@ -3867,7 +3925,7 @@
                "value" : 2
             }
          ],
-         "id" : 246,
+         "id" : 249,
          "string" : "the Baleful Eye"
       },
       {
@@ -3883,7 +3941,7 @@
                "value" : 8
             }
          ],
-         "id" : 247,
+         "id" : 250,
          "string" : "Pivot of the Universe"
       },
       {
@@ -3904,7 +3962,7 @@
                "value" : 4
             }
          ],
-         "id" : 248,
+         "id" : 251,
          "string" : "the Creator of all Life and Existence"
       },
       {
@@ -3930,7 +3988,7 @@
                "value" : 4
             }
          ],
-         "id" : 249,
+         "id" : 252,
          "string" : "Maker of Everlasting Worlds"
       },
       {
@@ -3941,7 +3999,7 @@
                "value" : 6
             }
          ],
-         "id" : 250,
+         "id" : 253,
          "string" : "# of the Pole Star"
       },
       {
@@ -3952,7 +4010,7 @@
                "value" : 6
             }
          ],
-         "id" : 251,
+         "id" : 254,
          "string" : "# of Men's Fates"
       },
       {
@@ -3963,7 +4021,7 @@
                "value" : 5
             }
          ],
-         "id" : 252,
+         "id" : 255,
          "string" : "# of the Sacred Eye"
       },
       {
@@ -3979,7 +4037,7 @@
                "value" : 2
             }
          ],
-         "id" : 253,
+         "id" : 256,
          "string" : "Creator of the Calendar"
       },
       {
@@ -3990,7 +4048,7 @@
                "value" : 3
             }
          ],
-         "id" : 254,
+         "id" : 257,
          "string" : "the Far Traveler"
       },
       {
@@ -4006,7 +4064,7 @@
                "value" : 1
             }
          ],
-         "id" : 255,
+         "id" : 258,
          "string" : "! who Confuses the Way"
       },
       {
@@ -4022,7 +4080,7 @@
                "value" : 1
             }
          ],
-         "id" : 256,
+         "id" : 259,
          "string" : "! who Makes Clear the Way"
       },
       {
@@ -4033,7 +4091,7 @@
                "value" : 1
             }
          ],
-         "id" : 257,
+         "id" : 260,
          "string" : "the Persuasive One"
       },
       {
@@ -4044,7 +4102,7 @@
                "value" : 7
             }
          ],
-         "id" : 258,
+         "id" : 261,
          "string" : "the Fate of the World"
       },
       {
@@ -4055,7 +4113,7 @@
                "value" : 5
             }
          ],
-         "id" : 259,
+         "id" : 262,
          "string" : "# of Doors and Beginnings and Endings"
       },
       {
@@ -4071,7 +4129,7 @@
                "value" : 2
             }
          ],
-         "id" : 260,
+         "id" : 263,
          "string" : "Guardian of the Bridge"
       },
       {
@@ -4092,7 +4150,7 @@
                "value" : 1
             }
          ],
-         "id" : 261,
+         "id" : 264,
          "string" : "the Face Painted with Bells"
       },
       {
@@ -4108,7 +4166,7 @@
                "value" : 4
             }
          ],
-         "id" : 262,
+         "id" : 265,
          "string" : "Star of the Sea"
       },
       {
@@ -4124,7 +4182,7 @@
                "value" : 4
             }
          ],
-         "id" : 263,
+         "id" : 266,
          "string" : "the Brilliant One in the Sky"
       },
       {
@@ -4140,7 +4198,7 @@
                "value" : 6
             }
          ],
-         "id" : 264,
+         "id" : 267,
          "string" : "Light-Giver of Heaven"
       },
       {
@@ -4151,7 +4209,7 @@
                "value" : 4
             }
          ],
-         "id" : 265,
+         "id" : 268,
          "string" : "the Remote and Inaccessible #"
       },
       {
@@ -4167,7 +4225,7 @@
                "value" : 8
             }
          ],
-         "id" : 266,
+         "id" : 269,
          "string" : "Ruler of the 365 Heavens"
       },
       {
@@ -4183,8 +4241,40 @@
                "value" : 8
             }
          ],
-         "id" : 267,
+         "id" : 270,
          "string" : "Master of Eternity"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : 4
+            },
+            {
+               "field" : "F",
+               "type" : "magic path",
+               "value" : 4
+            }
+         ],
+         "id" : 271,
+         "string" : "# of Afar"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "S",
+               "type" : "magic path",
+               "value" : 7
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 10
+            }
+         ],
+         "id" : 272,
+         "string" : "The Eternal Ever-present Cause of All"
       },
       {
          "constraints" : [
@@ -4194,7 +4284,7 @@
                "value" : 4
             }
          ],
-         "id" : 268,
+         "id" : 273,
          "string" : "# of the Healing Arts"
       },
       {
@@ -4205,7 +4295,7 @@
                "value" : 4
             }
          ],
-         "id" : 269,
+         "id" : 274,
          "string" : "# of Nature"
       },
       {
@@ -4216,7 +4306,7 @@
                "value" : 4
             }
          ],
-         "id" : 270,
+         "id" : 275,
          "string" : "the Carpenter of the Insides"
       },
       {
@@ -4236,7 +4326,7 @@
                "value" : "female"
             }
          ],
-         "id" : 271,
+         "id" : 276,
          "string" : "Goddess of Birth"
       },
       {
@@ -4256,7 +4346,7 @@
                "value" : "female"
             }
          ],
-         "id" : 272,
+         "id" : 277,
          "string" : "the Womb"
       },
       {
@@ -4276,7 +4366,7 @@
                "value" : "female"
             }
          ],
-         "id" : 273,
+         "id" : 278,
          "string" : "the Mother of All Children"
       },
       {
@@ -4296,7 +4386,7 @@
                "value" : 12
             }
          ],
-         "id" : 274,
+         "id" : 279,
          "string" : "# of Growth"
       },
       {
@@ -4312,7 +4402,7 @@
                "value" : 2
             }
          ],
-         "id" : 275,
+         "id" : 280,
          "string" : "# of Fertility"
       },
       {
@@ -4328,7 +4418,7 @@
                "value" : 0
             }
          ],
-         "id" : 276,
+         "id" : 281,
          "string" : "# of the Forest"
       },
       {
@@ -4339,7 +4429,7 @@
                "value" : 4
             }
          ],
-         "id" : 277,
+         "id" : 282,
          "string" : "# of Animals"
       },
       {
@@ -4355,7 +4445,7 @@
                "value" : 3
             }
          ],
-         "id" : 278,
+         "id" : 283,
          "string" : "# of Vegetation"
       },
       {
@@ -4371,7 +4461,7 @@
                "value" : 2
             }
          ],
-         "id" : 279,
+         "id" : 284,
          "string" : "# of Verdure"
       },
       {
@@ -4387,7 +4477,7 @@
                "value" : 2
             }
          ],
-         "id" : 280,
+         "id" : 285,
          "string" : "# of Grasses, Grain and Reed"
       },
       {
@@ -4403,7 +4493,7 @@
                "value" : 0
             }
          ],
-         "id" : 281,
+         "id" : 286,
          "string" : "# of Plants and Trees"
       },
       {
@@ -4419,7 +4509,7 @@
                "value" : 2
             }
          ],
-         "id" : 282,
+         "id" : 287,
          "string" : "the Howler"
       },
       {
@@ -4444,7 +4534,7 @@
                "value" : "male"
             }
          ],
-         "id" : 283,
+         "id" : 288,
          "string" : "the Wild Bull who has Lain Down"
       },
       {
@@ -4464,7 +4554,7 @@
                "value" : "male"
             }
          ],
-         "id" : 284,
+         "id" : 289,
          "string" : "Fecund Breed-Bull"
       },
       {
@@ -4480,7 +4570,7 @@
                "value" : 1
             }
          ],
-         "id" : 285,
+         "id" : 290,
          "string" : "# of the Wild Cows"
       },
       {
@@ -4496,7 +4586,7 @@
                "value" : 2
             }
          ],
-         "id" : 286,
+         "id" : 291,
          "string" : "# of the Dying Forests"
       },
       {
@@ -4511,7 +4601,7 @@
                "value" : "male"
             }
          ],
-         "id" : 287,
+         "id" : 292,
          "string" : "the Unsleeping God"
       },
       {
@@ -4526,7 +4616,7 @@
                "value" : "female"
             }
          ],
-         "id" : 288,
+         "id" : 293,
          "string" : "the Unsleeping Goddess"
       },
       {
@@ -4537,7 +4627,7 @@
                "value" : 4
             }
          ],
-         "id" : 289,
+         "id" : 294,
          "string" : "# of the Wildlife"
       },
       {
@@ -4553,7 +4643,7 @@
                "value" : 2
             }
          ],
-         "id" : 290,
+         "id" : 295,
          "string" : "the Creator of Wine"
       },
       {
@@ -4569,7 +4659,7 @@
                "value" : 2
             }
          ],
-         "id" : 291,
+         "id" : 296,
          "string" : "# of Revelry"
       },
       {
@@ -4580,7 +4670,7 @@
                "value" : 4
             }
          ],
-         "id" : 292,
+         "id" : 297,
          "string" : "# of the Hunt"
       },
       {
@@ -4596,7 +4686,7 @@
                "value" : 1
             }
          ],
-         "id" : 293,
+         "id" : 298,
          "string" : "Herder of Men"
       },
       {
@@ -4612,7 +4702,7 @@
                "value" : 3
             }
          ],
-         "id" : 294,
+         "id" : 299,
          "string" : "# of the Blessed Lands"
       },
       {
@@ -4623,7 +4713,7 @@
                "value" : 3
             }
          ],
-         "id" : 295,
+         "id" : 300,
          "string" : "Patron of Herbalists"
       },
       {
@@ -4639,7 +4729,7 @@
                "value" : 4
             }
          ],
-         "id" : 296,
+         "id" : 301,
          "string" : "Healer of the Lands"
       },
       {
@@ -4650,7 +4740,7 @@
                "value" : 9
             }
          ],
-         "id" : 297,
+         "id" : 302,
          "string" : "First Born of Gaia"
       },
       {
@@ -4666,7 +4756,7 @@
                "value" : 1
             }
          ],
-         "id" : 298,
+         "id" : 303,
          "string" : "Patron of Berserkers"
       },
       {
@@ -4682,7 +4772,7 @@
                "value" : 1
             }
          ],
-         "id" : 299,
+         "id" : 304,
          "string" : "the Gentle Flower"
       },
       {
@@ -4698,7 +4788,7 @@
                "value" : 4
             }
          ],
-         "id" : 300,
+         "id" : 305,
          "string" : "# of the Forest that Thirsts"
       },
       {
@@ -4718,7 +4808,7 @@
                "value" : "male"
             }
          ],
-         "id" : 301,
+         "id" : 306,
          "string" : "He Who Felled the First Tree"
       },
       {
@@ -4734,7 +4824,7 @@
                "value" : 0
             }
          ],
-         "id" : 302,
+         "id" : 307,
          "string" : "# of the Eternal Forest"
       },
       {
@@ -4755,7 +4845,7 @@
                "value" : 1
             }
          ],
-         "id" : 303,
+         "id" : 308,
          "string" : "# of Birds and Parrots"
       },
       {
@@ -4771,7 +4861,7 @@
                "value" : 3
             }
          ],
-         "id" : 304,
+         "id" : 309,
          "string" : "the Essence of Fertility"
       },
       {
@@ -4791,7 +4881,7 @@
                "value" : "male"
             }
          ],
-         "id" : 305,
+         "id" : 310,
          "string" : "the King of Berries"
       },
       {
@@ -4806,7 +4896,7 @@
                "value" : "female"
             }
          ],
-         "id" : 306,
+         "id" : 311,
          "string" : "Lady Precious Green"
       },
       {
@@ -4822,7 +4912,7 @@
                "value" : 4
             }
          ],
-         "id" : 307,
+         "id" : 312,
          "string" : "# of all Young and Growing Things"
       },
       {
@@ -4848,7 +4938,7 @@
                "value" : 0
             }
          ],
-         "id" : 308,
+         "id" : 313,
          "string" : "Personification of Youthful Vitality and Violence"
       },
       {
@@ -4864,7 +4954,7 @@
                "value" : 4
             }
          ],
-         "id" : 309,
+         "id" : 314,
          "string" : "the Old Old One"
       },
       {
@@ -4880,7 +4970,7 @@
                "value" : 2
             }
          ],
-         "id" : 310,
+         "id" : 315,
          "string" : "Bringer of Abundance"
       },
       {
@@ -4896,7 +4986,7 @@
                "value" : 0
             }
          ],
-         "id" : 311,
+         "id" : 316,
          "string" : "# of Eloquence"
       },
       {
@@ -4911,7 +5001,7 @@
                "value" : "male"
             }
          ],
-         "id" : 312,
+         "id" : 317,
          "string" : "the Leaflord"
       },
       {
@@ -4922,7 +5012,7 @@
                "value" : 3
             }
          ],
-         "id" : 313,
+         "id" : 318,
          "string" : "# of Insects"
       },
       {
@@ -4933,7 +5023,7 @@
                "value" : 2
             }
          ],
-         "id" : 314,
+         "id" : 319,
          "string" : "the Divine Shepherd"
       },
       {
@@ -4944,7 +5034,7 @@
                "value" : 3
             }
          ],
-         "id" : 315,
+         "id" : 320,
          "string" : "# of Horses"
       },
       {
@@ -4960,7 +5050,7 @@
                "value" : 4
             }
          ],
-         "id" : 316,
+         "id" : 321,
          "string" : "# of Hunting"
       },
       {
@@ -4976,7 +5066,7 @@
                "value" : 3
             }
          ],
-         "id" : 317,
+         "id" : 322,
          "string" : "Patron of Huntsmen"
       },
       {
@@ -4992,7 +5082,7 @@
                "value" : 1
             }
          ],
-         "id" : 318,
+         "id" : 323,
          "string" : "# of the Spring"
       },
       {
@@ -5008,7 +5098,7 @@
                "value" : 4
             }
          ],
-         "id" : 319,
+         "id" : 324,
          "string" : "# of Flowers and Spring"
       },
       {
@@ -5028,7 +5118,7 @@
                "value" : 6
             }
          ],
-         "id" : 320,
+         "id" : 325,
          "string" : "Midwife of the Gods"
       },
       {
@@ -5053,7 +5143,7 @@
                "value" : 20
             }
          ],
-         "id" : 321,
+         "id" : 326,
          "string" : "Gardener of Happiness"
       },
       {
@@ -5073,7 +5163,7 @@
                "value" : 20
             }
          ],
-         "id" : 322,
+         "id" : 327,
          "string" : "Keeper of the Gardens of Delight"
       },
       {
@@ -5094,7 +5184,7 @@
                "value" : 6
             }
          ],
-         "id" : 323,
+         "id" : 328,
          "string" : "the One who Purifies Everyone by the very Utterance of !! Name"
       },
       {
@@ -5115,7 +5205,7 @@
                "value" : 4
             }
          ],
-         "id" : 324,
+         "id" : 329,
          "string" : "# of Forbidden Love"
       },
       {
@@ -5134,24 +5224,8 @@
                "value" : 26
             }
          ],
-         "id" : 325,
+         "id" : 330,
          "string" : "Goddess of Spring and Eternal Youth"
-      },
-      {
-         "constraints" : [
-            {
-               "field" : "S",
-               "type" : "magic path",
-               "value" : 4
-            },
-            {
-               "field" : "F",
-               "type" : "magic path",
-               "value" : 4
-            }
-         ],
-         "id" : 326,
-         "string" : "# of Afar"
       },
       {
          "constraints" : [
@@ -5161,7 +5235,7 @@
                "value" : 4
             }
          ],
-         "id" : 327,
+         "id" : 331,
          "string" : "# of Deception"
       },
       {
@@ -5172,7 +5246,7 @@
                "value" : 4
             }
          ],
-         "id" : 328,
+         "id" : 332,
          "string" : "# of Veils"
       },
       {
@@ -5183,8 +5257,8 @@
                "value" : 4
             }
          ],
-         "id" : 329,
-         "string" : "the Unseen #"
+         "id" : 333,
+         "string" : "the Veiled #"
       },
       {
          "constraints" : [
@@ -5194,7 +5268,45 @@
                "value" : 4
             }
          ],
-         "id" : 330,
+         "id" : 334,
+         "string" : "# of Twilight"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "G",
+               "type" : "magic path",
+               "value" : 4
+            }
+         ],
+         "id" : 335,
+         "string" : "the Unseen #"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "G",
+               "type" : "magic path",
+               "value" : 6
+            },
+            {
+               "field" : "dominion strength",
+               "type" : "misc minimum",
+               "value" : 8
+            }
+         ],
+         "id" : 336,
+         "string" : "the Invisible # of All"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "G",
+               "type" : "magic path",
+               "value" : 4
+            }
+         ],
+         "id" : 337,
          "string" : "the Hidden One"
       },
       {
@@ -5210,7 +5322,7 @@
                "value" : 1
             }
          ],
-         "id" : 331,
+         "id" : 338,
          "string" : "the # Shrouded in Shadows"
       },
       {
@@ -5221,8 +5333,19 @@
                "value" : 4
             }
          ],
-         "id" : 332,
+         "id" : 339,
          "string" : "# of Trickery"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "G",
+               "type" : "magic path",
+               "value" : 5
+            }
+         ],
+         "id" : 340,
+         "string" : "# of Trickery and Deceit"
       },
       {
          "constraints" : [
@@ -5232,7 +5355,7 @@
                "value" : 4
             }
          ],
-         "id" : 333,
+         "id" : 341,
          "string" : "# of False Promises"
       },
       {
@@ -5243,7 +5366,7 @@
                "value" : 4
             }
          ],
-         "id" : 334,
+         "id" : 342,
          "string" : "# of Falsehood"
       },
       {
@@ -5254,7 +5377,7 @@
                "value" : 4
             }
          ],
-         "id" : 335,
+         "id" : 343,
          "string" : "# of Music"
       },
       {
@@ -5270,7 +5393,7 @@
                "value" : 1
             }
          ],
-         "id" : 336,
+         "id" : 344,
          "string" : "# of Unsung Songs"
       },
       {
@@ -5281,7 +5404,7 @@
                "value" : 4
             }
          ],
-         "id" : 337,
+         "id" : 345,
          "string" : "# of Mischief"
       },
       {
@@ -5292,7 +5415,7 @@
                "value" : 4
             }
          ],
-         "id" : 338,
+         "id" : 346,
          "string" : "the Mischievous One"
       },
       {
@@ -5308,7 +5431,7 @@
                "value" : 0
             }
          ],
-         "id" : 339,
+         "id" : 347,
          "string" : "# of Illusion and Masquerade"
       },
       {
@@ -5328,7 +5451,7 @@
                "value" : "female"
             }
          ],
-         "id" : 340,
+         "id" : 348,
          "string" : "# of Beauty and Charm"
       },
       {
@@ -5344,7 +5467,7 @@
                "value" : -1
             }
          ],
-         "id" : 341,
+         "id" : 349,
          "string" : "# of Poetry and Song"
       },
       {
@@ -5355,7 +5478,7 @@
                "value" : 4
             }
          ],
-         "id" : 342,
+         "id" : 350,
          "string" : "# of Mirrors"
       },
       {
@@ -5366,7 +5489,7 @@
                "value" : 4
             }
          ],
-         "id" : 343,
+         "id" : 351,
          "string" : "Originator of Deceit"
       },
       {
@@ -5381,7 +5504,7 @@
                "value" : "male"
             }
          ],
-         "id" : 344,
+         "id" : 352,
          "string" : "Father of Lies"
       },
       {
@@ -5396,7 +5519,7 @@
                "value" : "female"
             }
          ],
-         "id" : 345,
+         "id" : 353,
          "string" : "Mother of Lies"
       },
       {
@@ -5412,7 +5535,7 @@
                "value" : 0
             }
          ],
-         "id" : 346,
+         "id" : 354,
          "string" : "the Sly #"
       },
       {
@@ -5428,7 +5551,7 @@
                "value" : 1
             }
          ],
-         "id" : 347,
+         "id" : 355,
          "string" : "Slanderer of the Gods"
       },
       {
@@ -5444,8 +5567,8 @@
                "value" : 4
             }
          ],
-         "id" : 348,
-         "string" : "! whose jest is Death"
+         "id" : 356,
+         "string" : "! whose Jest is Death"
       },
       {
          "constraints" : [
@@ -5460,7 +5583,7 @@
                "value" : 1
             }
          ],
-         "id" : 349,
+         "id" : 357,
          "string" : "# of Greed and Trickery"
       },
       {
@@ -5476,7 +5599,7 @@
                "value" : 2
             }
          ],
-         "id" : 350,
+         "id" : 358,
          "string" : "# of Fraud"
       },
       {
@@ -5492,7 +5615,7 @@
                "value" : 0
             }
          ],
-         "id" : 351,
+         "id" : 359,
          "string" : "# of Satires"
       },
       {
@@ -5503,7 +5626,7 @@
                "value" : 6
             }
          ],
-         "id" : 352,
+         "id" : 360,
          "string" : "the Essence of Beauty"
       },
       {
@@ -5519,7 +5642,7 @@
                "value" : 1
             }
          ],
-         "id" : 353,
+         "id" : 361,
          "string" : "Malice and Mischief"
       },
       {
@@ -5535,7 +5658,7 @@
                "value" : 1
             }
          ],
-         "id" : 354,
+         "id" : 362,
          "string" : "the Sublime Poet"
       },
       {
@@ -5551,7 +5674,7 @@
                "value" : 6
             }
          ],
-         "id" : 355,
+         "id" : 363,
          "string" : "Stealer of Stars"
       },
       {
@@ -5571,7 +5694,7 @@
                "value" : 22
             }
          ],
-         "id" : 356,
+         "id" : 364,
          "string" : "# of Pleasant Dreams"
       },
       {
@@ -5591,7 +5714,7 @@
                "value" : 22
             }
          ],
-         "id" : 357,
+         "id" : 365,
          "string" : "# of Deceitful Dreams"
       },
       {
@@ -5607,7 +5730,7 @@
                "value" : 4
             }
          ],
-         "id" : 358,
+         "id" : 366,
          "string" : "! of the Dreamlands"
       },
       {
@@ -5623,7 +5746,7 @@
                "value" : 4
             }
          ],
-         "id" : 359,
+         "id" : 367,
          "string" : "! whose Dreams form the World"
       },
       {
@@ -5639,7 +5762,7 @@
                "value" : 4
             }
          ],
-         "id" : 360,
+         "id" : 368,
          "string" : "the Puppet Master"
       },
       {
@@ -5650,7 +5773,7 @@
                "value" : 4
             }
          ],
-         "id" : 361,
+         "id" : 369,
          "string" : "# of Delusion"
       },
       {
@@ -5666,7 +5789,7 @@
                "value" : 2
             }
          ],
-         "id" : 362,
+         "id" : 370,
          "string" : "# of Blind Folly"
       },
       {
@@ -5682,8 +5805,45 @@
                "value" : 1
             }
          ],
-         "id" : 363,
+         "id" : 371,
          "string" : "# of Forgetfulness and Oblivion"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "G",
+               "type" : "magic path",
+               "value" : 5
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
+         "id" : 372,
+         "string" : "the Great Deceiver"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "G",
+               "type" : "magic path",
+               "value" : 3
+            },
+            {
+               "field" : "N",
+               "type" : "magic path",
+               "value" : 3
+            },
+            {
+               "field" : "Turmoil",
+               "type" : "scale",
+               "value" : 2
+            }
+         ],
+         "id" : 373,
+         "string" : "# of Intoxication"
       },
       {
          "constraints" : [
@@ -5702,7 +5862,7 @@
                "value" : "female"
             }
          ],
-         "id" : 364,
+         "id" : 374,
          "string" : "the Queen that Hungers"
       },
       {
@@ -5722,7 +5882,7 @@
                "value" : "female"
             }
          ],
-         "id" : 365,
+         "id" : 375,
          "string" : "the Death Caused by Lust"
       },
       {
@@ -5747,7 +5907,7 @@
                "value" : 8
             }
          ],
-         "id" : 366,
+         "id" : 376,
          "string" : "# of Immortal Evils"
       },
       {
@@ -5758,7 +5918,7 @@
                "value" : 4
             }
          ],
-         "id" : 367,
+         "id" : 377,
          "string" : "Eater of Children"
       },
       {
@@ -5773,7 +5933,7 @@
                "value" : "male"
             }
          ],
-         "id" : 368,
+         "id" : 378,
          "string" : "the Evil Prince"
       },
       {
@@ -5788,7 +5948,7 @@
                "value" : "female"
             }
          ],
-         "id" : 369,
+         "id" : 379,
          "string" : "the Evil Princess"
       },
       {
@@ -5799,7 +5959,7 @@
                "value" : 4
             }
          ],
-         "id" : 370,
+         "id" : 380,
          "string" : "Patron of Human Sacrifice"
       },
       {
@@ -5814,7 +5974,7 @@
                "value" : 10
             }
          ],
-         "id" : 371,
+         "id" : 381,
          "string" : "# of Blood"
       },
       {
@@ -5834,8 +5994,8 @@
                "value" : 10
             }
          ],
-         "id" : 372,
-         "string" : "# of Blood and Perfume "
+         "id" : 382,
+         "string" : "# of Blood and Perfume"
       },
       {
          "constraints" : [
@@ -5845,7 +6005,7 @@
                "value" : 4
             }
          ],
-         "id" : 373,
+         "id" : 383,
          "string" : "# of Pain"
       },
       {
@@ -5861,7 +6021,7 @@
                "value" : 1
             }
          ],
-         "id" : 374,
+         "id" : 384,
          "string" : "Sovereign of Sin"
       },
       {
@@ -5881,7 +6041,7 @@
                "value" : "male"
             }
          ],
-         "id" : 375,
+         "id" : 385,
          "string" : "Lord of Flies"
       },
       {
@@ -5892,7 +6052,7 @@
                "value" : 1
             }
          ],
-         "id" : 376,
+         "id" : 386,
          "string" : "Enemy of Infants"
       },
       {
@@ -5908,7 +6068,7 @@
                "value" : 2
             }
          ],
-         "id" : 377,
+         "id" : 387,
          "string" : "the Power Perverse"
       },
       {
@@ -5929,7 +6089,7 @@
                "value" : 2
             }
          ],
-         "id" : 378,
+         "id" : 388,
          "string" : "# of Taint"
       },
       {
@@ -5940,7 +6100,7 @@
                "value" : 4
             }
          ],
-         "id" : 379,
+         "id" : 389,
          "string" : "# of Suffering"
       },
       {
@@ -5951,7 +6111,7 @@
                "value" : 4
             }
          ],
-         "id" : 380,
+         "id" : 390,
          "string" : "Bane of Men"
       },
       {
@@ -5962,7 +6122,7 @@
                "value" : 4
             }
          ],
-         "id" : 381,
+         "id" : 391,
          "string" : "the Leech"
       },
       {
@@ -5978,7 +6138,7 @@
                "value" : 4
             }
          ],
-         "id" : 382,
+         "id" : 392,
          "string" : "the Leeching Darkness"
       },
       {
@@ -5993,7 +6153,7 @@
                "value" : "male"
             }
          ],
-         "id" : 383,
+         "id" : 393,
          "string" : "the Bloodlusting Lord"
       },
       {
@@ -6004,7 +6164,7 @@
                "value" : 4
             }
          ],
-         "id" : 384,
+         "id" : 394,
          "string" : "Seducer of Life"
       },
       {
@@ -6025,7 +6185,7 @@
                "value" : 1
             }
          ],
-         "id" : 385,
+         "id" : 395,
          "string" : "# of Evil"
       },
       {
@@ -6045,7 +6205,7 @@
                "value" : "female"
             }
          ],
-         "id" : 386,
+         "id" : 396,
          "string" : "Mother of Demons"
       },
       {
@@ -6065,7 +6225,7 @@
                "value" : "male"
             }
          ],
-         "id" : 387,
+         "id" : 397,
          "string" : "God of Unnatural Lust"
       },
       {
@@ -6085,7 +6245,7 @@
                "value" : "female"
             }
          ],
-         "id" : 388,
+         "id" : 398,
          "string" : "Goddess of Unnatural Lust"
       },
       {
@@ -6101,7 +6261,7 @@
                "value" : 5
             }
          ],
-         "id" : 389,
+         "id" : 399,
          "string" : "the Infernal Sovereign"
       },
       {
@@ -6112,7 +6272,7 @@
                "value" : 3
             }
          ],
-         "id" : 390,
+         "id" : 400,
          "string" : "Drinker of Blood"
       },
       {
@@ -6137,7 +6297,7 @@
                "value" : "male"
             }
          ],
-         "id" : 391,
+         "id" : 401,
          "string" : "Lord of Kokytos"
       },
       {
@@ -6158,7 +6318,7 @@
                "value" : 8
             }
          ],
-         "id" : 392,
+         "id" : 402,
          "string" : "# of the Abyss"
       },
       {
@@ -6179,7 +6339,7 @@
                "value" : 3
             }
          ],
-         "id" : 393,
+         "id" : 403,
          "string" : "# of Horrors"
       },
       {
@@ -6190,7 +6350,7 @@
                "value" : 3
             }
          ],
-         "id" : 394,
+         "id" : 404,
          "string" : "the Man Eater"
       },
       {
@@ -6201,7 +6361,7 @@
                "value" : 4
             }
          ],
-         "id" : 395,
+         "id" : 405,
          "string" : "Tamer of Demons"
       },
       {
@@ -6212,7 +6372,7 @@
                "value" : 4
             }
          ],
-         "id" : 396,
+         "id" : 406,
          "string" : "Tower of Strength"
       },
       {
@@ -6237,7 +6397,7 @@
                "value" : 3
             }
          ],
-         "id" : 397,
+         "id" : 407,
          "string" : "Lord of Madness"
       },
       {
@@ -6262,7 +6422,7 @@
                "value" : 4
             }
          ],
-         "id" : 398,
+         "id" : 408,
          "string" : "the Merchant of Souls"
       },
       {
@@ -6281,7 +6441,7 @@
                "value" : 26
             }
          ],
-         "id" : 399,
+         "id" : 409,
          "string" : "Goddess of Eternal Youth"
       },
       {
@@ -6297,7 +6457,7 @@
                "value" : 1
             }
          ],
-         "id" : 400,
+         "id" : 410,
          "string" : "# of Deformities"
       },
       {
@@ -6318,24 +6478,24 @@
                "value" : 1
             }
          ],
-         "id" : 401,
+         "id" : 411,
          "string" : "# of Twins"
       },
       {
          "constraints" : [
             {
-               "field" : "SDNB",
+               "field" : "SDNG",
                "type" : "magic paths",
                "value" : 1
             }
          ],
-         "id" : 402,
+         "id" : 412,
          "string" : "Left Hand of Knowledge"
       },
       {
          "constraints" : [
             {
-               "field" : "SDNB",
+               "field" : "SDNG",
                "type" : "magic paths",
                "value" : 2
             },
@@ -6344,13 +6504,13 @@
                "value" : 18
             }
          ],
-         "id" : 403,
+         "id" : 413,
          "string" : "# of Wisdom"
       },
       {
          "constraints" : [
             {
-               "field" : "FAWESDNB",
+               "field" : "FAWESDNGB",
                "type" : "magic paths",
                "value" : 1
             },
@@ -6359,7 +6519,7 @@
                "value" : "male"
             }
          ],
-         "id" : 404,
+         "id" : 414,
          "string" : "the Mighty One of Words of Power"
       },
       {
@@ -6370,13 +6530,13 @@
                "value" : 3
             }
          ],
-         "id" : 405,
+         "id" : 415,
          "string" : "# of the Elements"
       },
       {
          "constraints" : [
             {
-               "field" : "SDNB",
+               "field" : "SDNG",
                "type" : "magic paths",
                "value" : 1
             },
@@ -6385,13 +6545,13 @@
                "value" : 18
             }
          ],
-         "id" : 406,
+         "id" : 416,
          "string" : "! who is Crowned with Wisdom"
       },
       {
          "constraints" : [
             {
-               "field" : "FAWESDNB",
+               "field" : "FAWESDNGB",
                "type" : "magic paths",
                "value" : 1
             },
@@ -6400,13 +6560,13 @@
                "value" : "male"
             }
          ],
-         "id" : 407,
+         "id" : 417,
          "string" : "Master of Magic"
       },
       {
          "constraints" : [
             {
-               "field" : "FAWESDNB",
+               "field" : "FAWESDNGB",
                "type" : "magic paths",
                "value" : 1
             },
@@ -6415,7 +6575,7 @@
                "value" : "female"
             }
          ],
-         "id" : 408,
+         "id" : 418,
          "string" : "Mistress of Magic"
       },
       {
@@ -6431,13 +6591,13 @@
                "value" : 1
             }
          ],
-         "id" : 409,
+         "id" : 419,
          "string" : "# of Rainbows"
       },
       {
          "constraints" : [
             {
-               "field" : "SDNB",
+               "field" : "SDNG",
                "type" : "magic paths",
                "value" : 1
             },
@@ -6446,13 +6606,13 @@
                "value" : "female"
             }
          ],
-         "id" : 410,
+         "id" : 420,
          "string" : "# of Witchcraft"
       },
       {
          "constraints" : [
             {
-               "field" : "FAWESDNB",
+               "field" : "FAWESDNGB",
                "type" : "magic paths",
                "value" : 1
             },
@@ -6462,7 +6622,7 @@
                "value" : 7
             }
          ],
-         "id" : 411,
+         "id" : 421,
          "string" : "! who has Infinite Power"
       },
       {
@@ -6483,7 +6643,7 @@
                "value" : 4
             }
          ],
-         "id" : 412,
+         "id" : 422,
          "string" : "the Cat of Slime"
       },
       {
@@ -6498,7 +6658,7 @@
                "value" : 10
             }
          ],
-         "id" : 413,
+         "id" : 423,
          "string" : "the Vessel of Might"
       },
       {
@@ -6519,7 +6679,7 @@
                "value" : 4
             }
          ],
-         "id" : 414,
+         "id" : 424,
          "string" : "Exalted Above and Below"
       },
       {
@@ -6534,7 +6694,7 @@
                "value" : "male"
             }
          ],
-         "id" : 415,
+         "id" : 425,
          "string" : "King of Kings"
       },
       {
@@ -6545,7 +6705,7 @@
                "value" : 6
             }
          ],
-         "id" : 416,
+         "id" : 426,
          "string" : "the Most High"
       },
       {
@@ -6556,7 +6716,7 @@
                "value" : 8
             }
          ],
-         "id" : 417,
+         "id" : 427,
          "string" : "August #"
       },
       {
@@ -6576,7 +6736,7 @@
                "value" : 10
             }
          ],
-         "id" : 418,
+         "id" : 428,
          "string" : "Lord of Fear and Trembling"
       },
       {
@@ -6595,7 +6755,7 @@
                "value" : 19
             }
          ],
-         "id" : 419,
+         "id" : 429,
          "string" : "Father of Gods"
       },
       {
@@ -6614,7 +6774,7 @@
                "value" : 19
             }
          ],
-         "id" : 420,
+         "id" : 430,
          "string" : "Mother of Gods"
       },
       {
@@ -6634,7 +6794,7 @@
                "value" : 1
             }
          ],
-         "id" : 421,
+         "id" : 431,
          "string" : "Prince of Majesty"
       },
       {
@@ -6654,7 +6814,7 @@
                "value" : 1
             }
          ],
-         "id" : 422,
+         "id" : 432,
          "string" : "Queen of Majesty"
       },
       {
@@ -6665,7 +6825,7 @@
                "value" : 10
             }
          ],
-         "id" : 423,
+         "id" : 433,
          "string" : "God of Invincible Power"
       },
       {
@@ -6684,7 +6844,7 @@
                "value" : 19
             }
          ],
-         "id" : 424,
+         "id" : 434,
          "string" : "God of Gods"
       },
       {
@@ -6699,7 +6859,7 @@
                "value" : 19
             }
          ],
-         "id" : 425,
+         "id" : 435,
          "string" : "the Beginning and the End"
       },
       {
@@ -6714,7 +6874,7 @@
                "value" : "male"
             }
          ],
-         "id" : 426,
+         "id" : 436,
          "string" : "He who Is at the Center"
       },
       {
@@ -6729,7 +6889,7 @@
                "value" : "male"
             }
          ],
-         "id" : 427,
+         "id" : 437,
          "string" : "the God above All"
       },
       {
@@ -6740,7 +6900,7 @@
                "value" : 8
             }
          ],
-         "id" : 428,
+         "id" : 438,
          "string" : "# of Many Names"
       },
       {
@@ -6751,7 +6911,7 @@
                "value" : 7
             }
          ],
-         "id" : 429,
+         "id" : 439,
          "string" : "# of this World"
       },
       {
@@ -6762,12 +6922,12 @@
                "value" : 7
             },
             {
-               "field" : "SDNB",
+               "field" : "SDNG",
                "type" : "magic paths",
                "value" : 1
             }
          ],
-         "id" : 430,
+         "id" : 440,
          "string" : "# who Knows All Things"
       },
       {
@@ -6778,7 +6938,7 @@
                "value" : 8
             }
          ],
-         "id" : 431,
+         "id" : 441,
          "string" : "Author and Finisher of Our Faith"
       },
       {
@@ -6798,7 +6958,7 @@
                "value" : 2
             }
          ],
-         "id" : 432,
+         "id" : 442,
          "string" : "the Everlasting Father"
       },
       {
@@ -6818,7 +6978,7 @@
                "value" : 2
             }
          ],
-         "id" : 433,
+         "id" : 443,
          "string" : "the Everlasting Mother"
       },
       {
@@ -6829,7 +6989,7 @@
                "value" : 3
             }
          ],
-         "id" : 434,
+         "id" : 444,
          "string" : "the Destroyer"
       },
       {
@@ -6844,7 +7004,7 @@
                "value" : 0
             }
          ],
-         "id" : 435,
+         "id" : 445,
          "string" : "Patron of Thieves"
       },
       {
@@ -6864,7 +7024,7 @@
                "value" : 15
             }
          ],
-         "id" : 436,
+         "id" : 446,
          "string" : "# of Beggars"
       },
       {
@@ -6884,7 +7044,7 @@
                "value" : 15
             }
          ],
-         "id" : 437,
+         "id" : 447,
          "string" : "Patron of Beggars"
       },
       {
@@ -6899,7 +7059,7 @@
                "value" : 0
             }
          ],
-         "id" : 438,
+         "id" : 448,
          "string" : "# of Fraud and Theft"
       },
       {
@@ -6915,7 +7075,7 @@
                "value" : 1
             }
          ],
-         "id" : 439,
+         "id" : 449,
          "string" : "Patron of Injustice"
       },
       {
@@ -6936,7 +7096,7 @@
                "value" : 1
             }
          ],
-         "id" : 440,
+         "id" : 450,
          "string" : "# of Tyrants"
       },
       {
@@ -6947,7 +7107,7 @@
                "value" : 1
             }
          ],
-         "id" : 441,
+         "id" : 451,
          "string" : "# of Insolence"
       },
       {
@@ -6967,7 +7127,7 @@
                "value" : 5
             }
          ],
-         "id" : 442,
+         "id" : 452,
          "string" : "# of War"
       },
       {
@@ -6982,7 +7142,7 @@
                "value" : 5
             }
          ],
-         "id" : 443,
+         "id" : 453,
          "string" : "Bringer of War"
       },
       {
@@ -6993,7 +7153,7 @@
                "value" : 2
             }
          ],
-         "id" : 444,
+         "id" : 454,
          "string" : "the Lover of War"
       },
       {
@@ -7004,7 +7164,7 @@
                "value" : 3
             }
          ],
-         "id" : 445,
+         "id" : 455,
          "string" : "the Angry Face"
       },
       {
@@ -7015,7 +7175,7 @@
                "value" : 3
             }
          ],
-         "id" : 446,
+         "id" : 456,
          "string" : "# of Chaos"
       },
       {
@@ -7026,7 +7186,7 @@
                "value" : 3
             }
          ],
-         "id" : 447,
+         "id" : 457,
          "string" : "# of Turmoil"
       },
       {
@@ -7037,7 +7197,7 @@
                "value" : 1
             }
          ],
-         "id" : 448,
+         "id" : 458,
          "string" : "# of Spontaneity"
       },
       {
@@ -7048,7 +7208,7 @@
                "value" : 3
             }
          ],
-         "id" : 449,
+         "id" : 459,
          "string" : "# of Unexpected Pleasure and Sorrow"
       },
       {
@@ -7064,7 +7224,7 @@
                "value" : 3
             }
          ],
-         "id" : 450,
+         "id" : 460,
          "string" : "Enemy of Reason"
       },
       {
@@ -7084,7 +7244,7 @@
                "value" : 1
             }
          ],
-         "id" : 451,
+         "id" : 461,
          "string" : "the God with Backward Feet"
       },
       {
@@ -7100,7 +7260,7 @@
                "value" : 2
             }
          ],
-         "id" : 452,
+         "id" : 462,
          "string" : "Patron of Liars"
       },
       {
@@ -7111,7 +7271,7 @@
                "value" : 1
             }
          ],
-         "id" : 453,
+         "id" : 463,
          "string" : "# of Mischief"
       },
       {
@@ -7122,7 +7282,7 @@
                "value" : 2
             }
          ],
-         "id" : 454,
+         "id" : 464,
          "string" : "Bringer of Discord"
       },
       {
@@ -7133,7 +7293,7 @@
                "value" : 2
             }
          ],
-         "id" : 455,
+         "id" : 465,
          "string" : "the Jealous #"
       },
       {
@@ -7144,7 +7304,7 @@
                "value" : 3
             }
          ],
-         "id" : 456,
+         "id" : 466,
          "string" : "# of Bloodshed and Conflict"
       },
       {
@@ -7155,7 +7315,7 @@
                "value" : 1
             }
          ],
-         "id" : 457,
+         "id" : 467,
          "string" : "the Enemy of Both Sides"
       },
       {
@@ -7166,7 +7326,7 @@
                "value" : 2
             }
          ],
-         "id" : 458,
+         "id" : 468,
          "string" : "the Two-Faced #"
       },
       {
@@ -7181,7 +7341,7 @@
                "value" : "female"
             }
          ],
-         "id" : 459,
+         "id" : 469,
          "string" : "She of Two Faces"
       },
       {
@@ -7192,7 +7352,7 @@
                "value" : 2
             }
          ],
-         "id" : 460,
+         "id" : 470,
          "string" : "# of Two Faces"
       },
       {
@@ -7203,7 +7363,7 @@
                "value" : 3
             }
          ],
-         "id" : 461,
+         "id" : 471,
          "string" : "Creator of the Ends of the World"
       },
       {
@@ -7219,7 +7379,7 @@
                "value" : 2
             }
          ],
-         "id" : 462,
+         "id" : 472,
          "string" : "# of Civilization"
       },
       {
@@ -7230,7 +7390,7 @@
                "value" : 3
             }
          ],
-         "id" : 463,
+         "id" : 473,
          "string" : "Gate of Peace"
       },
       {
@@ -7241,7 +7401,7 @@
                "value" : 2
             }
          ],
-         "id" : 464,
+         "id" : 474,
          "string" : "# of the Open Road"
       },
       {
@@ -7252,7 +7412,7 @@
                "value" : 1
             }
          ],
-         "id" : 465,
+         "id" : 475,
          "string" : "Patron of Merchants"
       },
       {
@@ -7273,7 +7433,7 @@
                "value" : 2
             }
          ],
-         "id" : 466,
+         "id" : 476,
          "string" : "the Divine Architect"
       },
       {
@@ -7284,7 +7444,7 @@
                "value" : 3
             }
          ],
-         "id" : 467,
+         "id" : 477,
          "string" : "# of the Hierarchs"
       },
       {
@@ -7300,7 +7460,7 @@
                "value" : 3
             }
          ],
-         "id" : 468,
+         "id" : 478,
          "string" : "# of Order"
       },
       {
@@ -7316,7 +7476,7 @@
                "value" : 0
             }
          ],
-         "id" : 469,
+         "id" : 479,
          "string" : "# of Patience"
       },
       {
@@ -7332,7 +7492,7 @@
                "value" : 1
             }
          ],
-         "id" : 470,
+         "id" : 480,
          "string" : "# of Discipline"
       },
       {
@@ -7348,7 +7508,7 @@
                "value" : 3
             }
          ],
-         "id" : 471,
+         "id" : 481,
          "string" : "# of Ostentatious Ornament"
       },
       {
@@ -7364,7 +7524,7 @@
                "value" : 8
             }
          ],
-         "id" : 472,
+         "id" : 482,
          "string" : "the Fountainhead of Order"
       },
       {
@@ -7375,7 +7535,7 @@
                "value" : 2
             }
          ],
-         "id" : 473,
+         "id" : 483,
          "string" : "# of Wealth and Power"
       },
       {
@@ -7391,7 +7551,7 @@
                "value" : 0
             }
          ],
-         "id" : 474,
+         "id" : 484,
          "string" : "# of Writing and Speech"
       },
       {
@@ -7417,7 +7577,7 @@
                "value" : 0
             }
          ],
-         "id" : 475,
+         "id" : 485,
          "string" : "Friend of All"
       },
       {
@@ -7432,7 +7592,7 @@
                "value" : 13
             }
          ],
-         "id" : 476,
+         "id" : 486,
          "string" : "Patron of the Rich"
       },
       {
@@ -7447,7 +7607,7 @@
                "value" : "male"
             }
          ],
-         "id" : 477,
+         "id" : 487,
          "string" : "God of the City"
       },
       {
@@ -7462,7 +7622,7 @@
                "value" : 14
             }
          ],
-         "id" : 478,
+         "id" : 488,
          "string" : "Commander of Truth"
       },
       {
@@ -7477,7 +7637,7 @@
                "value" : 14
             }
          ],
-         "id" : 479,
+         "id" : 489,
          "string" : "Spirit of Truth"
       },
       {
@@ -7488,7 +7648,7 @@
                "value" : 2
             }
          ],
-         "id" : 480,
+         "id" : 490,
          "string" : "Patron of Arbitrators"
       },
       {
@@ -7503,7 +7663,7 @@
                "value" : 14
             }
          ],
-         "id" : 481,
+         "id" : 491,
          "string" : "Protector of Oaths"
       },
       {
@@ -7518,7 +7678,7 @@
                "value" : 14
             }
          ],
-         "id" : 482,
+         "id" : 492,
          "string" : "# of Oaths and Friendship"
       },
       {
@@ -7529,7 +7689,7 @@
                "value" : 2
             }
          ],
-         "id" : 483,
+         "id" : 493,
          "string" : "Guardian of the Law"
       },
       {
@@ -7545,7 +7705,7 @@
                "value" : 1
             }
          ],
-         "id" : 484,
+         "id" : 494,
          "string" : "the Kindly One"
       },
       {
@@ -7556,7 +7716,7 @@
                "value" : 3
             }
          ],
-         "id" : 485,
+         "id" : 495,
          "string" : "# of Excellence"
       },
       {
@@ -7581,7 +7741,7 @@
                "value" : "male"
             }
          ],
-         "id" : 486,
+         "id" : 496,
          "string" : "the Beloved Father"
       },
       {
@@ -7592,7 +7752,7 @@
                "value" : 2
             }
          ],
-         "id" : 487,
+         "id" : 497,
          "string" : "the Symbol of Unification"
       },
       {
@@ -7603,7 +7763,7 @@
                "value" : 1
             }
          ],
-         "id" : 488,
+         "id" : 498,
          "string" : "Great Defender"
       },
       {
@@ -7623,7 +7783,7 @@
                "value" : 0
             }
          ],
-         "id" : 489,
+         "id" : 499,
          "string" : "# of Marriage"
       },
       {
@@ -7638,7 +7798,7 @@
                "value" : 3
             }
          ],
-         "id" : 490,
+         "id" : 500,
          "string" : "# of Chastity"
       },
       {
@@ -7649,7 +7809,7 @@
                "value" : 1
             }
          ],
-         "id" : 491,
+         "id" : 501,
          "string" : "the Peacemaker"
       },
       {
@@ -7670,7 +7830,7 @@
                "value" : 4
             }
          ],
-         "id" : 492,
+         "id" : 502,
          "string" : "Destroyer of Demons"
       },
       {
@@ -7686,7 +7846,7 @@
                "value" : 1
             }
          ],
-         "id" : 493,
+         "id" : 503,
          "string" : "! whose Work is Perfect"
       },
       {
@@ -7702,7 +7862,7 @@
                "value" : 4
             }
          ],
-         "id" : 494,
+         "id" : 504,
          "string" : "the Foundation"
       },
       {
@@ -7713,7 +7873,7 @@
                "value" : 2
             }
          ],
-         "id" : 495,
+         "id" : 505,
          "string" : "Patron of Adulterers"
       },
       {
@@ -7724,7 +7884,7 @@
                "value" : 1
             }
          ],
-         "id" : 496,
+         "id" : 506,
          "string" : "# of Hardship"
       },
       {
@@ -7740,8 +7900,19 @@
                "value" : 1
             }
          ],
-         "id" : 497,
+         "id" : 507,
          "string" : "Patron of Trade and Manual Workers"
+      },
+      {
+         "constraints" : [
+            {
+               "field" : "Order",
+               "type" : "scale",
+               "value" : 1
+            }
+         ],
+         "id" : 508,
+         "string" : "Protector of Houses and Temples"
       },
       {
          "constraints" : [
@@ -7751,7 +7922,7 @@
                "value" : 1
             }
          ],
-         "id" : 498,
+         "id" : 509,
          "string" : "# of the Harvest"
       },
       {
@@ -7762,7 +7933,7 @@
                "value" : 2
             }
          ],
-         "id" : 499,
+         "id" : 510,
          "string" : "the Giver of Food"
       },
       {
@@ -7773,7 +7944,7 @@
                "value" : 3
             }
          ],
-         "id" : 500,
+         "id" : 511,
          "string" : "Giver of Life"
       },
       {
@@ -7784,7 +7955,7 @@
                "value" : 1
             }
          ],
-         "id" : 501,
+         "id" : 512,
          "string" : "Nourisher of the Fields"
       },
       {
@@ -7795,7 +7966,7 @@
                "value" : 2
             }
          ],
-         "id" : 502,
+         "id" : 513,
          "string" : "# of Fruit Trees"
       },
       {
@@ -7811,7 +7982,7 @@
                "value" : 1
             }
          ],
-         "id" : 503,
+         "id" : 514,
          "string" : "Author of Life"
       },
       {
@@ -7822,7 +7993,7 @@
                "value" : 2
             }
          ],
-         "id" : 504,
+         "id" : 515,
          "string" : "# of Vultures"
       },
       {
@@ -7833,7 +8004,7 @@
                "value" : 2
             }
          ],
-         "id" : 505,
+         "id" : 516,
          "string" : "# of Wastelands"
       },
       {
@@ -7849,7 +8020,7 @@
                "value" : 2
             }
          ],
-         "id" : 506,
+         "id" : 517,
          "string" : "# of the Scorched Earth"
       },
       {
@@ -7865,7 +8036,7 @@
                "value" : 1
             }
          ],
-         "id" : 507,
+         "id" : 518,
          "string" : "# of Hope"
       },
       {
@@ -7885,7 +8056,7 @@
                "value" : 15
             }
          ],
-         "id" : 508,
+         "id" : 519,
          "string" : "Patron of Outcasts"
       },
       {
@@ -7905,7 +8076,7 @@
                "value" : 15
             }
          ],
-         "id" : 509,
+         "id" : 520,
          "string" : "Patron of Heroes"
       },
       {
@@ -7925,7 +8096,7 @@
                "value" : 15
             }
          ],
-         "id" : 510,
+         "id" : 521,
          "string" : "Guide of Heroes"
       },
       {
@@ -7941,7 +8112,7 @@
                "value" : 2
             }
          ],
-         "id" : 511,
+         "id" : 522,
          "string" : "the Compassionate"
       },
       {
@@ -7956,7 +8127,7 @@
                "value" : "female"
             }
          ],
-         "id" : 512,
+         "id" : 523,
          "string" : "Goddess of Mercy"
       },
       {
@@ -7971,7 +8142,7 @@
                "value" : 11
             }
          ],
-         "id" : 513,
+         "id" : 524,
          "string" : "# of Gambling"
       },
       {
@@ -7986,7 +8157,7 @@
                "value" : 11
             }
          ],
-         "id" : 514,
+         "id" : 525,
          "string" : "Patron of Gamblers"
       },
       {
@@ -8002,7 +8173,7 @@
                "value" : 0
             }
          ],
-         "id" : 515,
+         "id" : 526,
          "string" : "Bestower of Good Gifts"
       },
       {
@@ -8013,7 +8184,7 @@
                "value" : 2
             }
          ],
-         "id" : 516,
+         "id" : 527,
          "string" : "Bringer of Misfortune"
       },
       {
@@ -8028,7 +8199,7 @@
                "value" : "female"
             }
          ],
-         "id" : 517,
+         "id" : 528,
          "string" : "She Who Opened the Box of Woe"
       },
       {
@@ -8044,7 +8215,7 @@
                "value" : 3
             }
          ],
-         "id" : 518,
+         "id" : 529,
          "string" : "Enforcer of Misfortune"
       },
       {
@@ -8055,7 +8226,7 @@
                "value" : 1
             }
          ],
-         "id" : 519,
+         "id" : 530,
          "string" : "the Narrow Face"
       },
       {
@@ -8075,7 +8246,7 @@
                "value" : 13
             }
          ],
-         "id" : 520,
+         "id" : 531,
          "string" : "Giver of Riches"
       },
       {
@@ -8091,7 +8262,7 @@
                "value" : 1
             }
          ],
-         "id" : 521,
+         "id" : 532,
          "string" : "# of Greed"
       },
       {
@@ -8102,7 +8273,7 @@
                "value" : 1
             }
          ],
-         "id" : 522,
+         "id" : 533,
          "string" : "the Eternal Poet"
       },
       {
@@ -8118,7 +8289,7 @@
                "value" : 0
             }
          ],
-         "id" : 523,
+         "id" : 534,
          "string" : "the Teacher of Philosophy"
       },
       {
@@ -8134,7 +8305,7 @@
                "value" : 1
             }
          ],
-         "id" : 524,
+         "id" : 535,
          "string" : "# of Education and Science"
       },
       {
@@ -8144,7 +8315,7 @@
                "value" : 1343
             }
          ],
-         "id" : 525,
+         "id" : 536,
          "string" : "# of Love"
       },
       {
@@ -8159,7 +8330,7 @@
                "value" : 4
             }
          ],
-         "id" : 526,
+         "id" : 537,
          "string" : "Cow of Plenty"
       },
       {
@@ -8174,7 +8345,7 @@
                "value" : 6
             }
          ],
-         "id" : 527,
+         "id" : 538,
          "string" : "Wish-fulfilling Cow"
       },
       {
@@ -8184,7 +8355,7 @@
                "value" : 2466
             }
          ],
-         "id" : 528,
+         "id" : 539,
          "string" : "Mother of all Cows"
       },
       {
@@ -8194,7 +8365,7 @@
                "value" : 3076
             }
          ],
-         "id" : 529,
+         "id" : 540,
          "string" : "the Battle Crow"
       },
       {
@@ -8204,7 +8375,7 @@
                "value" : 3079
             }
          ],
-         "id" : 530,
+         "id" : 541,
          "string" : "the Wheel-God"
       },
       {
@@ -8214,7 +8385,7 @@
                "value" : 3079
             }
          ],
-         "id" : 531,
+         "id" : 542,
          "string" : "# of the Turning Year"
       },
       {
@@ -8224,7 +8395,7 @@
                "value" : 2608
             }
          ],
-         "id" : 532,
+         "id" : 543,
          "string" : "the Three Heads of Doom"
       },
       {
@@ -8234,7 +8405,7 @@
                "value" : 3203
             }
          ],
-         "id" : 533,
+         "id" : 544,
          "string" : "the Huntress"
       },
       {
@@ -8244,7 +8415,7 @@
                "value" : 3203
             }
          ],
-         "id" : 534,
+         "id" : 545,
          "string" : "the Virgin Goddess"
       },
       {
@@ -8254,7 +8425,7 @@
                "value" : 3203
             }
          ],
-         "id" : 535,
+         "id" : 546,
          "string" : "Protector of Virgins"
       },
       {
@@ -8264,7 +8435,7 @@
                "value" : 16
             }
          ],
-         "id" : 536,
+         "id" : 547,
          "string" : "the Fire of Hatred"
       },
       {
@@ -8274,7 +8445,7 @@
                "value" : 16
             }
          ],
-         "id" : 537,
+         "id" : 548,
          "string" : "# of the Wastes"
       },
       {
@@ -8284,7 +8455,7 @@
                "value" : 16
             }
          ],
-         "id" : 538,
+         "id" : 549,
          "string" : "the Raging #"
       },
       {
@@ -8294,7 +8465,7 @@
                "value" : 16
             }
          ],
-         "id" : 539,
+         "id" : 550,
          "string" : "Enemy of Man"
       },
       {
@@ -8304,7 +8475,7 @@
                "value" : 63
             }
          ],
-         "id" : 540,
+         "id" : 551,
          "string" : "the Fire of Hatred"
       },
       {
@@ -8314,7 +8485,7 @@
                "value" : 63
             }
          ],
-         "id" : 541,
+         "id" : 552,
          "string" : "# of the Wastes"
       },
       {
@@ -8324,7 +8495,7 @@
                "value" : 63
             }
          ],
-         "id" : 542,
+         "id" : 553,
          "string" : "the Raging #"
       },
       {
@@ -8334,7 +8505,7 @@
                "value" : 63
             }
          ],
-         "id" : 543,
+         "id" : 554,
          "string" : "Enemy of Man"
       },
       {
@@ -8348,7 +8519,7 @@
                "value" : "male"
             }
          ],
-         "id" : 544,
+         "id" : 555,
          "string" : "Lord of the Smouldercone"
       },
       {
@@ -8362,7 +8533,7 @@
                "value" : "male"
             }
          ],
-         "id" : 545,
+         "id" : 556,
          "string" : "Lord of the Smouldercone"
       },
       {
@@ -8372,7 +8543,7 @@
                "value" : 104
             }
          ],
-         "id" : 546,
+         "id" : 557,
          "string" : "the Raging #"
       },
       {
@@ -8382,7 +8553,7 @@
                "value" : 43
             }
          ],
-         "id" : 547,
+         "id" : 558,
          "string" : "# of the Deeps"
       },
       {
@@ -8392,7 +8563,7 @@
                "value" : 43
             }
          ],
-         "id" : 548,
+         "id" : 559,
          "string" : "the Basalt #"
       },
       {
@@ -8406,7 +8577,7 @@
                "value" : "male"
             }
          ],
-         "id" : 549,
+         "id" : 560,
          "string" : "Master of the Coral Towers"
       },
       {
@@ -8420,7 +8591,7 @@
                "value" : "female"
             }
          ],
-         "id" : 550,
+         "id" : 561,
          "string" : "Mistress of the Coral Towers"
       },
       {
@@ -8430,7 +8601,7 @@
                "value" : 88
             }
          ],
-         "id" : 551,
+         "id" : 562,
          "string" : "# of the Deeps"
       },
       {
@@ -8445,7 +8616,7 @@
                "value" : 9
             }
          ],
-         "id" : 552,
+         "id" : 563,
          "string" : "Eater of the Lands"
       },
       {
@@ -8460,7 +8631,7 @@
                "value" : 1
             }
          ],
-         "id" : 553,
+         "id" : 564,
          "string" : "! of the Bountiful Tent"
       },
       {
@@ -8475,7 +8646,7 @@
                "value" : 2
             }
          ],
-         "id" : 554,
+         "id" : 565,
          "string" : "the Pearled #"
       },
       {
@@ -8494,7 +8665,7 @@
                "value" : "female"
             }
          ],
-         "id" : 555,
+         "id" : 566,
          "string" : "Mother of Pearls"
       },
       {
@@ -8509,7 +8680,7 @@
                "value" : 4
             }
          ],
-         "id" : 556,
+         "id" : 567,
          "string" : "Harvester of Sailors"
       },
       {
@@ -8524,7 +8695,7 @@
                "value" : 4
             }
          ],
-         "id" : 557,
+         "id" : 568,
          "string" : "# of Stormy Coasts"
       },
       {
@@ -8542,7 +8713,7 @@
                "value" : 16
             }
          ],
-         "id" : 558,
+         "id" : 569,
          "string" : "the Proud Emperor"
       },
       {
@@ -8552,7 +8723,7 @@
                "value" : 56
             }
          ],
-         "id" : 559,
+         "id" : 570,
          "string" : "# of the Emerald Throne"
       },
       {
@@ -8567,7 +8738,7 @@
                "value" : 4
             }
          ],
-         "id" : 560,
+         "id" : 571,
          "string" : "# of the Spheres"
       },
       {
@@ -8585,7 +8756,7 @@
                "value" : 16
             }
          ],
-         "id" : 561,
+         "id" : 572,
          "string" : "the Eternal Emperor"
       },
       {
@@ -8600,7 +8771,7 @@
                "value" : 58
             }
          ],
-         "id" : 562,
+         "id" : 573,
          "string" : "# of the Fay"
       },
       {
@@ -8619,7 +8790,7 @@
                "value" : "male"
             }
          ],
-         "id" : 563,
+         "id" : 574,
          "string" : "the Once and Future King"
       },
       {
@@ -8638,7 +8809,7 @@
                "value" : "female"
             }
          ],
-         "id" : 564,
+         "id" : 575,
          "string" : "Lady of the Lake"
       },
       {
@@ -8652,7 +8823,7 @@
                "value" : "female"
             }
          ],
-         "id" : 565,
+         "id" : 576,
          "string" : "Mistress of Avalon"
       },
       {
@@ -8667,7 +8838,7 @@
                "value" : 4
             }
          ],
-         "id" : 566,
+         "id" : 577,
          "string" : "# of Iron and Machines"
       },
       {
@@ -8677,7 +8848,7 @@
                "value" : 27
             }
          ],
-         "id" : 567,
+         "id" : 578,
          "string" : "# of the Swamp"
       },
       {
@@ -8687,7 +8858,7 @@
                "value" : 27
             }
          ],
-         "id" : 568,
+         "id" : 579,
          "string" : "the Serpent Mind"
       },
       {
@@ -8706,7 +8877,7 @@
                "value" : "male"
             }
          ],
-         "id" : 569,
+         "id" : 580,
          "string" : "Lord of Poison"
       },
       {
@@ -8726,7 +8897,7 @@
                "value" : 4
             }
          ],
-         "id" : 570,
+         "id" : 581,
          "string" : "# of Choking Moisture"
       },
       {
@@ -8741,7 +8912,7 @@
                "value" : 1
             }
          ],
-         "id" : 571,
+         "id" : 582,
          "string" : "the Entombed #"
       },
       {
@@ -8756,7 +8927,7 @@
                "value" : 4
             }
          ],
-         "id" : 572,
+         "id" : 583,
          "string" : "# of a Thousand Stars"
       },
       {
@@ -8771,7 +8942,7 @@
                "value" : 8
             }
          ],
-         "id" : 573,
+         "id" : 584,
          "string" : "# of Time"
       },
       {
@@ -8781,7 +8952,7 @@
                "value" : 8
             }
          ],
-         "id" : 574,
+         "id" : 585,
          "string" : "the Savior"
       },
       {
@@ -8791,7 +8962,7 @@
                "value" : 8
             }
          ],
-         "id" : 575,
+         "id" : 586,
          "string" : "the Shroud"
       },
       {
@@ -8805,7 +8976,7 @@
                "value" : 54
             }
          ],
-         "id" : 576,
+         "id" : 587,
          "string" : "the Eternal Emperor"
       },
       {
@@ -8815,7 +8986,7 @@
                "value" : 54
             }
          ],
-         "id" : 577,
+         "id" : 588,
          "string" : "Enemy of Life"
       },
       {
@@ -8825,7 +8996,7 @@
                "value" : 54
             }
          ],
-         "id" : 578,
+         "id" : 589,
          "string" : "the Adversary"
       },
       {
@@ -8835,7 +9006,7 @@
                "value" : 54
             }
          ],
-         "id" : 579,
+         "id" : 590,
          "string" : "Soul of Darkness"
       },
       {
@@ -8850,7 +9021,7 @@
                "value" : 1
             }
          ],
-         "id" : 580,
+         "id" : 591,
          "string" : "the Stillness of Death"
       },
       {
@@ -8864,7 +9035,7 @@
                "value" : 99
             }
          ],
-         "id" : 581,
+         "id" : 592,
          "string" : "the Eternal Emperor"
       },
       {
@@ -8874,7 +9045,7 @@
                "value" : 99
             }
          ],
-         "id" : 582,
+         "id" : 593,
          "string" : "Enemy of Life"
       },
       {
@@ -8884,7 +9055,7 @@
                "value" : 99
             }
          ],
-         "id" : 583,
+         "id" : 594,
          "string" : "the Adversary"
       },
       {
@@ -8894,7 +9065,7 @@
                "value" : 99
             }
          ],
-         "id" : 584,
+         "id" : 595,
          "string" : "Soul of Darkness"
       },
       {
@@ -8909,7 +9080,7 @@
                "value" : 1
             }
          ],
-         "id" : 585,
+         "id" : 596,
          "string" : "the Stillness of Death"
       },
       {
@@ -8923,7 +9094,7 @@
                "value" : "male"
             }
          ],
-         "id" : 586,
+         "id" : 597,
          "string" : "Master of the Seraphim"
       },
       {
@@ -8937,7 +9108,7 @@
                "value" : "female"
             }
          ],
-         "id" : 587,
+         "id" : 598,
          "string" : "Mistress of the Seraphim"
       },
       {
@@ -8952,7 +9123,7 @@
                "value" : 6
             }
          ],
-         "id" : 588,
+         "id" : 599,
          "string" : "the Storm Herald"
       },
       {
@@ -8966,7 +9137,7 @@
                "value" : "male"
             }
          ],
-         "id" : 589,
+         "id" : 600,
          "string" : "the Blizzard King"
       },
       {
@@ -8981,7 +9152,7 @@
                "value" : 0
             }
          ],
-         "id" : 590,
+         "id" : 601,
          "string" : "# of the Morning"
       },
       {
@@ -9011,7 +9182,7 @@
                "value" : 0
             }
          ],
-         "id" : 591,
+         "id" : 602,
          "string" : "Marshal of the Host"
       },
       {
@@ -9031,7 +9202,7 @@
                "value" : 3
             }
          ],
-         "id" : 592,
+         "id" : 603,
          "string" : "# of Justice"
       },
       {
@@ -9051,7 +9222,7 @@
                "value" : 4
             }
          ],
-         "id" : 593,
+         "id" : 604,
          "string" : "Soldier of the Sun"
       },
       {
@@ -9071,7 +9242,7 @@
                "value" : 3
             }
          ],
-         "id" : 594,
+         "id" : 605,
          "string" : "Bright Sun of Justice"
       },
       {
@@ -9095,7 +9266,7 @@
                "value" : "male"
             }
          ],
-         "id" : 595,
+         "id" : 606,
          "string" : "the King Unjust"
       },
       {
@@ -9110,7 +9281,7 @@
                "value" : 4
             }
          ],
-         "id" : 596,
+         "id" : 607,
          "string" : "the Fallen #"
       },
       {
@@ -9120,7 +9291,7 @@
                "value" : 7
             }
          ],
-         "id" : 597,
+         "id" : 608,
          "string" : "the Beast"
       },
       {
@@ -9130,7 +9301,7 @@
                "value" : 52
             }
          ],
-         "id" : 598,
+         "id" : 609,
          "string" : "the Beast #"
       },
       {
@@ -9140,7 +9311,7 @@
                "value" : 52
             }
          ],
-         "id" : 599,
+         "id" : 610,
          "string" : "# of the Wild"
       },
       {
@@ -9155,7 +9326,7 @@
                "value" : 4
             }
          ],
-         "id" : 600,
+         "id" : 611,
          "string" : "# of the Gallows"
       },
       {
@@ -9170,7 +9341,7 @@
                "value" : 4
             }
          ],
-         "id" : 601,
+         "id" : 612,
          "string" : "the Hanged God"
       },
       {
@@ -9185,7 +9356,7 @@
                "value" : 4
             }
          ],
-         "id" : 602,
+         "id" : 613,
          "string" : "Hangatyr"
       },
       {
@@ -9199,7 +9370,7 @@
                "value" : "male"
             }
          ],
-         "id" : 603,
+         "id" : 614,
          "string" : "Father of Ages"
       },
       {
@@ -9213,7 +9384,7 @@
                "value" : "female"
             }
          ],
-         "id" : 604,
+         "id" : 615,
          "string" : "Mother of the Vanir"
       },
       {
@@ -9227,7 +9398,7 @@
                "value" : "male"
             }
          ],
-         "id" : 605,
+         "id" : 616,
          "string" : "Father of Ages"
       },
       {
@@ -9241,7 +9412,7 @@
                "value" : "female"
             }
          ],
-         "id" : 606,
+         "id" : 617,
          "string" : "Mother of the Vanir"
       },
       {
@@ -9251,7 +9422,7 @@
                "value" : 33
             }
          ],
-         "id" : 607,
+         "id" : 618,
          "string" : "Fimbultyr"
       },
       {
@@ -9270,7 +9441,7 @@
                "value" : 2
             }
          ],
-         "id" : 608,
+         "id" : 619,
          "string" : "Lord of Niefel"
       },
       {
@@ -9289,7 +9460,7 @@
                "value" : 2
             }
          ],
-         "id" : 609,
+         "id" : 620,
          "string" : "Lady of Niefel"
       },
       {
@@ -9299,7 +9470,7 @@
                "value" : 89
             }
          ],
-         "id" : 610,
+         "id" : 621,
          "string" : "the Hunger Without Thought"
       },
       {
@@ -9309,7 +9480,7 @@
                "value" : 89
             }
          ],
-         "id" : 611,
+         "id" : 622,
          "string" : "the Lurker at the Threshold"
       },
       {
@@ -9323,7 +9494,7 @@
                "value" : "male"
             }
          ],
-         "id" : 612,
+         "id" : 623,
          "string" : "He Who Should not be Named"
       },
       {
@@ -9333,7 +9504,7 @@
                "value" : 2980
             }
          ],
-         "id" : 613,
+         "id" : 624,
          "string" : "the Key and the Gate"
       },
       {
@@ -9343,7 +9514,7 @@
                "value" : 2980
             }
          ],
-         "id" : 614,
+         "id" : 625,
          "string" : "the Future Past"
       },
       {
@@ -9353,7 +9524,7 @@
                "value" : 127
             }
          ],
-         "id" : 615,
+         "id" : 626,
          "string" : "the Hunger Without Thought"
       },
       {
@@ -9363,7 +9534,7 @@
                "value" : 127
             }
          ],
-         "id" : 616,
+         "id" : 627,
          "string" : "the Lurker at the Threshold"
       },
       {
@@ -9377,7 +9548,7 @@
                "value" : "male"
             }
          ],
-         "id" : 617,
+         "id" : 628,
          "string" : "He Who Should not be Named"
       },
       {
@@ -9387,7 +9558,7 @@
                "value" : 2434
             }
          ],
-         "id" : 618,
+         "id" : 629,
          "string" : "She of the Jade Skirt"
       },
       {
@@ -9401,7 +9572,7 @@
                "value" : "male"
             }
          ],
-         "id" : 619,
+         "id" : 630,
          "string" : "Jaguar King"
       },
       {
@@ -9415,7 +9586,7 @@
                "value" : "female"
             }
          ],
-         "id" : 620,
+         "id" : 631,
          "string" : "the Bloody Mistress"
       },
       {
@@ -9425,7 +9596,7 @@
                "value" : 25
             }
          ],
-         "id" : 621,
+         "id" : 632,
          "string" : "the Eater of Hearts"
       },
       {
@@ -9435,7 +9606,7 @@
                "value" : 25
             }
          ],
-         "id" : 622,
+         "id" : 633,
          "string" : "Patron of Cannibalism"
       },
       {
@@ -9450,7 +9621,7 @@
                "value" : 25
             }
          ],
-         "id" : 623,
+         "id" : 634,
          "string" : "the Twisted Obsidian One"
       },
       {
@@ -9460,7 +9631,7 @@
                "value" : 25
             }
          ],
-         "id" : 624,
+         "id" : 635,
          "string" : "# of the Obsidian Blade"
       },
       {
@@ -9489,7 +9660,7 @@
                "value" : 4
             }
          ],
-         "id" : 625,
+         "id" : 636,
          "string" : "the Obsidian Butterfly"
       },
       {
@@ -9503,7 +9674,7 @@
                "value" : "male"
             }
          ],
-         "id" : 626,
+         "id" : 637,
          "string" : "Jaguar King"
       },
       {
@@ -9517,7 +9688,7 @@
                "value" : "female"
             }
          ],
-         "id" : 627,
+         "id" : 638,
          "string" : "the Bloody Mistress"
       },
       {
@@ -9532,7 +9703,7 @@
                "value" : 4
             }
          ],
-         "id" : 628,
+         "id" : 639,
          "string" : "the Eater of Hearts"
       },
       {
@@ -9547,7 +9718,7 @@
                "value" : 26
             }
          ],
-         "id" : 629,
+         "id" : 640,
          "string" : "the Twisted Obsidian One"
       },
       {
@@ -9557,7 +9728,7 @@
                "value" : 26
             }
          ],
-         "id" : 630,
+         "id" : 641,
          "string" : "# of the Obsidian Blade"
       },
       {
@@ -9586,7 +9757,7 @@
                "value" : 4
             }
          ],
-         "id" : 631,
+         "id" : 642,
          "string" : "the Obsidian Butterfly"
       },
       {
@@ -9601,7 +9772,7 @@
                "value" : 2
             }
          ],
-         "id" : 632,
+         "id" : 643,
          "string" : "the Lawgiver"
       },
       {
@@ -9616,7 +9787,7 @@
                "value" : 73
             }
          ],
-         "id" : 633,
+         "id" : 644,
          "string" : "the Corn #"
       },
       {
@@ -9636,7 +9807,7 @@
                "value" : 4
             }
          ],
-         "id" : 634,
+         "id" : 645,
          "string" : "Minister of the Celestial Bureaucracy"
       },
       {
@@ -9656,7 +9827,7 @@
                "value" : 3
             }
          ],
-         "id" : 635,
+         "id" : 646,
          "string" : "Minister of the Five Elements"
       },
       {
@@ -9675,7 +9846,7 @@
                "value" : 1
             }
          ],
-         "id" : 636,
+         "id" : 647,
          "string" : "Minister of the Eight Winds"
       },
       {
@@ -9695,7 +9866,7 @@
                "value" : 1
             }
          ],
-         "id" : 637,
+         "id" : 648,
          "string" : "God of Luck Through Hard Work"
       },
       {
@@ -9715,7 +9886,7 @@
                "value" : 1
             }
          ],
-         "id" : 638,
+         "id" : 649,
          "string" : "God of Luck Through Hard Work"
       },
       {
@@ -9735,7 +9906,7 @@
                "value" : 1
             }
          ],
-         "id" : 639,
+         "id" : 650,
          "string" : "God of Luck Through Hard Work"
       },
       {
@@ -9750,7 +9921,7 @@
                "value" : 1
             }
          ],
-         "id" : 640,
+         "id" : 651,
          "string" : "the Rice #"
       },
       {
@@ -9765,7 +9936,7 @@
                "value" : 1
             }
          ],
-         "id" : 641,
+         "id" : 652,
          "string" : "the Rice #"
       },
       {
@@ -9780,7 +9951,7 @@
                "value" : 1
             }
          ],
-         "id" : 642,
+         "id" : 653,
          "string" : "the Rice #"
       },
       {
@@ -9795,7 +9966,7 @@
                "value" : 1
             }
          ],
-         "id" : 643,
+         "id" : 654,
          "string" : "the Rice #"
       },
       {
@@ -9814,7 +9985,7 @@
                "value" : 14
             }
          ],
-         "id" : 644,
+         "id" : 655,
          "string" : "# of Medicine"
       },
       {
@@ -9833,7 +10004,7 @@
                "value" : 14
             }
          ],
-         "id" : 645,
+         "id" : 656,
          "string" : "# of Medicine"
       },
       {
@@ -9852,7 +10023,7 @@
                "value" : 14
             }
          ],
-         "id" : 646,
+         "id" : 657,
          "string" : "# of Medicine"
       },
       {
@@ -9871,7 +10042,7 @@
                "value" : 14
             }
          ],
-         "id" : 647,
+         "id" : 658,
          "string" : "# of Medicine"
       },
       {
@@ -9890,7 +10061,7 @@
                "value" : 0
             }
          ],
-         "id" : 648,
+         "id" : 659,
          "string" : "# of Medicine"
       },
       {
@@ -9909,7 +10080,7 @@
                "value" : 14
             }
          ],
-         "id" : 649,
+         "id" : 660,
          "string" : "# of Medical Arts"
       },
       {
@@ -9928,7 +10099,7 @@
                "value" : 14
             }
          ],
-         "id" : 650,
+         "id" : 661,
          "string" : "# of Medical Arts"
       },
       {
@@ -9947,7 +10118,7 @@
                "value" : 14
             }
          ],
-         "id" : 651,
+         "id" : 662,
          "string" : "# of Medical Arts"
       },
       {
@@ -9966,7 +10137,7 @@
                "value" : 14
             }
          ],
-         "id" : 652,
+         "id" : 663,
          "string" : "# of Medical Arts"
       },
       {
@@ -9985,7 +10156,7 @@
                "value" : 14
             }
          ],
-         "id" : 653,
+         "id" : 664,
          "string" : "# of Medical Arts"
       },
       {
@@ -9999,7 +10170,7 @@
                "value" : "male"
             }
          ],
-         "id" : 654,
+         "id" : 665,
          "string" : "the Summer Lord"
       },
       {
@@ -10014,7 +10185,7 @@
                "value" : 4
             }
          ],
-         "id" : 655,
+         "id" : 666,
          "string" : "the Heart of Darkness"
       },
       {
@@ -10024,7 +10195,7 @@
                "value" : 76
             }
          ],
-         "id" : 656,
+         "id" : 667,
          "string" : "# of Spiders"
       },
       {
@@ -10043,7 +10214,7 @@
                "value" : "male"
             }
          ],
-         "id" : 657,
+         "id" : 668,
          "string" : "the God in the Mountain"
       },
       {
@@ -10062,7 +10233,7 @@
                "value" : "female"
             }
          ],
-         "id" : 658,
+         "id" : 669,
          "string" : "the Goddess in the Forest"
       },
       {
@@ -10077,7 +10248,7 @@
                "value" : 4
             }
          ],
-         "id" : 659,
+         "id" : 670,
          "string" : "the Wheel"
       },
       {
@@ -10087,7 +10258,7 @@
                "value" : 68
             }
          ],
-         "id" : 660,
+         "id" : 671,
          "string" : "# of the Apes"
       },
       {
@@ -10102,7 +10273,7 @@
                "value" : 4
             }
          ],
-         "id" : 661,
+         "id" : 672,
          "string" : "the Wheel"
       },
       {
@@ -10112,7 +10283,7 @@
                "value" : 20
             }
          ],
-         "id" : 662,
+         "id" : 673,
          "string" : "# of the Apes"
       },
       {
@@ -10127,7 +10298,7 @@
                "value" : 4
             }
          ],
-         "id" : 663,
+         "id" : 674,
          "string" : "the Wheel"
       },
       {
@@ -10137,7 +10308,7 @@
                "value" : 108
             }
          ],
-         "id" : 664,
+         "id" : 675,
          "string" : "# of the Apes"
       },
       {
@@ -10152,7 +10323,7 @@
                "value" : 4
             }
          ],
-         "id" : 665,
+         "id" : 676,
          "string" : "the Hunger Below"
       },
       {
@@ -10167,7 +10338,7 @@
                "value" : 6
             }
          ],
-         "id" : 666,
+         "id" : 677,
          "string" : "the Maker of the Seal"
       },
       {
@@ -10187,7 +10358,7 @@
                "value" : 4
             }
          ],
-         "id" : 667,
+         "id" : 678,
          "string" : "the Obsidian Mind"
       },
       {
@@ -10197,7 +10368,7 @@
                "value" : 15
             }
          ],
-         "id" : 668,
+         "id" : 679,
          "string" : "# of Opulent Halls"
       },
       {
@@ -10207,7 +10378,7 @@
                "value" : 59
             }
          ],
-         "id" : 669,
+         "id" : 680,
          "string" : "# of Opulent Halls"
       },
       {
@@ -10222,7 +10393,7 @@
                "value" : 1
             }
          ],
-         "id" : 670,
+         "id" : 681,
          "string" : "the Golem #"
       },
       {
@@ -10237,7 +10408,7 @@
                "value" : 4
             }
          ],
-         "id" : 671,
+         "id" : 682,
          "string" : "# of the Tombs Underneath"
       },
       {
@@ -10247,7 +10418,7 @@
                "value" : 70
             }
          ],
-         "id" : 672,
+         "id" : 683,
          "string" : "# of the Bakemono"
       },
       {
@@ -10257,7 +10428,7 @@
                "value" : 23
             }
          ],
-         "id" : 673,
+         "id" : 684,
          "string" : "# of the Oni"
       },
       {
@@ -10267,7 +10438,7 @@
                "value" : 17
             }
          ],
-         "id" : 674,
+         "id" : 685,
          "string" : "Patron of Cannibalism"
       },
       {
@@ -10291,7 +10462,7 @@
                "value" : 12
             }
          ],
-         "id" : 675,
+         "id" : 686,
          "string" : "# of the Date Clusters"
       },
       {
@@ -10315,7 +10486,7 @@
                "value" : 12
             }
          ],
-         "id" : 676,
+         "id" : 687,
          "string" : "House of the Date Clusters"
       },
       {
@@ -10334,7 +10505,7 @@
                "value" : "female"
             }
          ],
-         "id" : 677,
+         "id" : 688,
          "string" : "Lady of the Bountiful Tent"
       },
       {
@@ -10358,7 +10529,7 @@
                "value" : 12
             }
          ],
-         "id" : 678,
+         "id" : 689,
          "string" : "# of the Date Clusters"
       },
       {
@@ -10382,7 +10553,7 @@
                "value" : 12
             }
          ],
-         "id" : 679,
+         "id" : 690,
          "string" : "House of the Date Clusters"
       },
       {
@@ -10401,7 +10572,7 @@
                "value" : "female"
             }
          ],
-         "id" : 680,
+         "id" : 691,
          "string" : "Mistress of the Bountiful House"
       },
       {
@@ -10411,7 +10582,7 @@
                "value" : 19
             }
          ],
-         "id" : 681,
+         "id" : 692,
          "string" : "the Lamenting #"
       },
       {
@@ -10421,7 +10592,7 @@
                "value" : 66
             }
          ],
-         "id" : 682,
+         "id" : 693,
          "string" : "the Lamenting #"
       },
       {
@@ -10431,12 +10602,12 @@
                "value" : 6
             }
          ],
-         "id" : 683,
+         "id" : 694,
          "string" : "the God-slayer"
       },
       {
          "constraints" : [],
-         "id" : 684,
+         "id" : 695,
          "string" : "# of Near and Close"
       },
       {
@@ -10456,42 +10627,42 @@
                "value" : 1
             }
          ],
-         "id" : 685,
+         "id" : 696,
          "string" : "the Self Created Master"
       },
       {
          "constraints" : [],
-         "id" : 686,
+         "id" : 697,
          "string" : "Sword of Balance"
       },
       {
          "constraints" : [],
-         "id" : 687,
+         "id" : 698,
          "string" : "the Awesome"
       },
       {
          "constraints" : [],
-         "id" : 688,
+         "id" : 699,
          "string" : "Symbol of Unchallenged Victory"
       },
       {
          "constraints" : [],
-         "id" : 689,
+         "id" : 700,
          "string" : "the Invincible and Ever-triumphant"
       },
       {
          "constraints" : [],
-         "id" : 690,
+         "id" : 701,
          "string" : "Patron of Soldiers"
       },
       {
          "constraints" : [],
-         "id" : 691,
+         "id" : 702,
          "string" : "Patron of Languages"
       },
       {
          "constraints" : [],
-         "id" : 692,
+         "id" : 703,
          "string" : "# of Courage"
       },
       {
@@ -10511,7 +10682,7 @@
                "value" : 1
             }
          ],
-         "id" : 693,
+         "id" : 704,
          "string" : "# of Agriculture"
       },
       {
@@ -10531,12 +10702,12 @@
                "value" : 0
             }
          ],
-         "id" : 694,
+         "id" : 705,
          "string" : "Patron of Farmers"
       },
       {
          "constraints" : [],
-         "id" : 695,
+         "id" : 706,
          "string" : "the Unforgiving #"
       },
       {
@@ -10546,7 +10717,7 @@
                "value" : 19
             }
          ],
-         "id" : 696,
+         "id" : 707,
          "string" : "Councilor of Gods"
       },
       {
@@ -10557,7 +10728,7 @@
                "value" : 3
             }
          ],
-         "id" : 697,
+         "id" : 708,
          "string" : "# of the Cold North"
       },
       {
@@ -10578,7 +10749,7 @@
                "value" : 3
             }
          ],
-         "id" : 698,
+         "id" : 709,
          "string" : "# of the Frozen Marches"
       },
       {
@@ -10594,7 +10765,7 @@
                "value" : 3
             }
          ],
-         "id" : 699,
+         "id" : 710,
          "string" : "The Frozen Face"
       },
       {
@@ -10610,7 +10781,7 @@
                "value" : 1
             }
          ],
-         "id" : 700,
+         "id" : 711,
          "string" : "# of Gluttony"
       },
       {
@@ -10625,7 +10796,7 @@
                "value" : "male"
             }
          ],
-         "id" : 701,
+         "id" : 712,
          "string" : "He Who Waits"
       },
       {
@@ -10646,7 +10817,7 @@
                "value" : 8
             }
          ],
-         "id" : 702,
+         "id" : 713,
          "string" : "Grand Vizier of the Lands of Woe"
       },
       {
@@ -10661,7 +10832,7 @@
                "value" : "female"
             }
          ],
-         "id" : 703,
+         "id" : 714,
          "string" : "the Night Hag"
       },
       {
@@ -10672,7 +10843,7 @@
                "value" : 1
             }
          ],
-         "id" : 704,
+         "id" : 715,
          "string" : "Duke of Hell"
       },
       {
@@ -10683,7 +10854,7 @@
                "value" : 1
             }
          ],
-         "id" : 705,
+         "id" : 716,
          "string" : "Fiend of the Wounding Spear"
       },
       {
@@ -10699,7 +10870,7 @@
                "value" : 3
             }
          ],
-         "id" : 706,
+         "id" : 717,
          "string" : "Monster of Confusion and Disorder"
       },
       {
@@ -10715,7 +10886,7 @@
                "value" : 1
             }
          ],
-         "id" : 707,
+         "id" : 718,
          "string" : "# of Silence"
       },
       {
@@ -10725,7 +10896,7 @@
                "value" : "female"
             }
          ],
-         "id" : 708,
+         "id" : 719,
          "string" : "# of Desire and Grace"
       },
       {
@@ -10735,7 +10906,7 @@
                "value" : "female"
             }
          ],
-         "id" : 709,
+         "id" : 720,
          "string" : "Lady of the Obscure"
       },
       {
@@ -10750,7 +10921,7 @@
                "value" : 1
             }
          ],
-         "id" : 710,
+         "id" : 721,
          "string" : "Lady of the Creamery"
       },
       {
@@ -10761,7 +10932,7 @@
                "value" : 0
             }
          ],
-         "id" : 711,
+         "id" : 722,
          "string" : "the Great Leap Forward"
       },
       {
@@ -10777,7 +10948,7 @@
                "value" : 0
             }
          ],
-         "id" : 712,
+         "id" : 723,
          "string" : "Desire of All Nations"
       },
       {
@@ -10806,7 +10977,7 @@
                "value" : "male"
             }
          ],
-         "id" : 713,
+         "id" : 724,
          "string" : "the Born God"
       },
       {
@@ -10821,7 +10992,7 @@
                "value" : 1
             }
          ],
-         "id" : 714,
+         "id" : 725,
          "string" : "the Unborn"
       },
       {
@@ -10831,7 +11002,7 @@
                "value" : 23
             }
          ],
-         "id" : 715,
+         "id" : 726,
          "string" : "the Self-Manifested #"
       },
       {
@@ -10842,12 +11013,12 @@
                "value" : 1
             }
          ],
-         "id" : 716,
+         "id" : 727,
          "string" : "Collector of Things Lost"
       },
       {
          "constraints" : [],
-         "id" : 717,
+         "id" : 728,
          "string" : "Banner of Victory"
       },
       {
@@ -10858,12 +11029,18 @@
                "value" : 5
             }
          ],
-         "id" : 718,
+         "id" : 729,
          "string" : "The Many Eyed #"
       },
       {
-         "constraints" : [],
-         "id" : 719,
+         "constraints" : [
+            {
+               "field" : "G",
+               "type" : "magic path",
+               "value" : 4
+            }
+         ],
+         "id" : 730,
          "string" : "Patron of all Bards"
       },
       {
@@ -10874,7 +11051,7 @@
                "value" : 1
             }
          ],
-         "id" : 720,
+         "id" : 731,
          "string" : "the Mouth of $"
       },
       {
@@ -10885,7 +11062,7 @@
                "value" : 1
             }
          ],
-         "id" : 721,
+         "id" : 732,
          "string" : "the Voice of $"
       },
       {
@@ -10896,7 +11073,7 @@
                "value" : 1
             }
          ],
-         "id" : 722,
+         "id" : 733,
          "string" : "the Will of $"
       },
       {
@@ -10907,7 +11084,7 @@
                "value" : 1
             }
          ],
-         "id" : 723,
+         "id" : 734,
          "string" : "the Fist of $"
       },
       {
@@ -10918,7 +11095,7 @@
                "value" : 1
             }
          ],
-         "id" : 724,
+         "id" : 735,
          "string" : "the Messenger of $"
       },
       {
@@ -10929,7 +11106,7 @@
                "value" : 1
             }
          ],
-         "id" : 725,
+         "id" : 736,
          "string" : "the Chaplain of $"
       },
       {
@@ -10940,7 +11117,7 @@
                "value" : 1
             }
          ],
-         "id" : 726,
+         "id" : 737,
          "string" : "the House of $"
       },
       {
@@ -10951,7 +11128,7 @@
                "value" : 1
             }
          ],
-         "id" : 727,
+         "id" : 738,
          "string" : "the First General of $"
       },
       {
@@ -10966,7 +11143,7 @@
                "value" : 69
             }
          ],
-         "id" : 728,
+         "id" : 739,
          "string" : "the First Minister of $"
       },
       {
@@ -10981,7 +11158,7 @@
                "value" : 69
             }
          ],
-         "id" : 729,
+         "id" : 740,
          "string" : "the Eternal Bookkeeper of $"
       },
       {
@@ -10992,7 +11169,7 @@
                "value" : 1
             }
          ],
-         "id" : 730,
+         "id" : 741,
          "string" : "the Right Hand of $"
       },
       {
@@ -11003,7 +11180,7 @@
                "value" : 1
             }
          ],
-         "id" : 731,
+         "id" : 742,
          "string" : "the Left Hand of $"
       },
       {
@@ -11014,7 +11191,7 @@
                "value" : 1
             }
          ],
-         "id" : 732,
+         "id" : 743,
          "string" : "! who is Always Behind $"
       },
       {
@@ -11025,7 +11202,7 @@
                "value" : 1
             }
          ],
-         "id" : 733,
+         "id" : 744,
          "string" : "Firstborn of $"
       },
       {
@@ -11036,7 +11213,7 @@
                "value" : 1
             }
          ],
-         "id" : 734,
+         "id" : 745,
          "string" : "the First Follower of $"
       },
       {
@@ -11047,7 +11224,7 @@
                "value" : 1
             }
          ],
-         "id" : 735,
+         "id" : 746,
          "string" : "the Second Follower of $"
       },
       {
@@ -11062,7 +11239,7 @@
                "value" : "male"
             }
          ],
-         "id" : 736,
+         "id" : 747,
          "string" : "the Son of $"
       },
       {
@@ -11077,7 +11254,7 @@
                "value" : "female"
             }
          ],
-         "id" : 737,
+         "id" : 748,
          "string" : "the Daughter of $"
       },
       {
@@ -11088,7 +11265,7 @@
                "value" : 1
             }
          ],
-         "id" : 738,
+         "id" : 749,
          "string" : "! who Aided $ to Victory"
       },
       {
@@ -11099,7 +11276,7 @@
                "value" : 1
             }
          ],
-         "id" : 739,
+         "id" : 750,
          "string" : "! who Saw $ First"
       },
       {
@@ -11110,7 +11287,7 @@
                "value" : 1
             }
          ],
-         "id" : 740,
+         "id" : 751,
          "string" : "! who Heard $ First"
       },
       {
@@ -11121,7 +11298,7 @@
                "value" : 1
             }
          ],
-         "id" : 741,
+         "id" : 752,
          "string" : "! who Betrayed $ and Survived"
       },
       {
@@ -11132,7 +11309,7 @@
                "value" : 1
             }
          ],
-         "id" : 742,
+         "id" : 753,
          "string" : "the Guardian of the Servants of $"
       },
       {
@@ -11143,7 +11320,7 @@
                "value" : 1
             }
          ],
-         "id" : 743,
+         "id" : 754,
          "string" : "the Most Devout Follower of $"
       },
       {
@@ -11154,7 +11331,7 @@
                "value" : 1
             }
          ],
-         "id" : 744,
+         "id" : 755,
          "string" : "the Most Eloquent Follower of $"
       },
       {
@@ -11165,7 +11342,7 @@
                "value" : 1
             }
          ],
-         "id" : 745,
+         "id" : 756,
          "string" : "the Most Important Follower of $"
       },
       {
@@ -11180,7 +11357,7 @@
                "value" : "female"
             }
          ],
-         "id" : 746,
+         "id" : 757,
          "string" : "the Joy of $"
       },
       {
@@ -11195,7 +11372,7 @@
                "value" : "male"
             }
          ],
-         "id" : 747,
+         "id" : 758,
          "string" : "the Seed of $"
       },
       {
@@ -11206,7 +11383,7 @@
                "value" : 1
             }
          ],
-         "id" : 748,
+         "id" : 759,
          "string" : "the Housekeeper of $"
       },
       {
@@ -11217,7 +11394,7 @@
                "value" : 1
             }
          ],
-         "id" : 749,
+         "id" : 760,
          "string" : "! who Walks Before $"
       },
       {
@@ -11228,7 +11405,7 @@
                "value" : 1
             }
          ],
-         "id" : 750,
+         "id" : 761,
          "string" : "Guardian of the Vestibule of $"
       },
       {
@@ -11239,7 +11416,7 @@
                "value" : 1
             }
          ],
-         "id" : 751,
+         "id" : 762,
          "string" : "Vanquisher of the Enemies of $"
       },
       {
@@ -11255,7 +11432,7 @@
                "value" : 0
             }
          ],
-         "id" : 752,
+         "id" : 763,
          "string" : "First Soldier of the Empire of $"
       },
       {
@@ -11266,7 +11443,7 @@
                "value" : 1
             }
          ],
-         "id" : 753,
+         "id" : 764,
          "string" : "Foremost of $'s servants"
       },
       {
@@ -11277,7 +11454,7 @@
                "value" : 1
             }
          ],
-         "id" : 754,
+         "id" : 765,
          "string" : "the Slave of $"
       },
       {
@@ -11288,7 +11465,7 @@
                "value" : 1
             }
          ],
-         "id" : 755,
+         "id" : 766,
          "string" : "the Marshal of $"
       },
       {
@@ -11299,7 +11476,7 @@
                "value" : 1
             }
          ],
-         "id" : 756,
+         "id" : 767,
          "string" : "the Forerunner of $"
       },
       {
@@ -11315,7 +11492,7 @@
                "value" : 3
             }
          ],
-         "id" : 757,
+         "id" : 768,
          "string" : "the Flame of $"
       },
       {
@@ -11331,7 +11508,7 @@
                "value" : 3
             }
          ],
-         "id" : 758,
+         "id" : 769,
          "string" : "! who Carries the Flame of $"
       },
       {
@@ -11347,7 +11524,7 @@
                "value" : 3
             }
          ],
-         "id" : 759,
+         "id" : 770,
          "string" : "the Light of $"
       },
       {
@@ -11363,7 +11540,7 @@
                "value" : 3
             }
          ],
-         "id" : 760,
+         "id" : 771,
          "string" : "the Wrath of $"
       },
       {
@@ -11379,7 +11556,7 @@
                "value" : 3
             }
          ],
-         "id" : 761,
+         "id" : 772,
          "string" : "the Breath of $"
       },
       {
@@ -11395,7 +11572,7 @@
                "value" : 3
             }
          ],
-         "id" : 762,
+         "id" : 773,
          "string" : "the Keeper of the Storm of $"
       },
       {
@@ -11411,7 +11588,7 @@
                "value" : 3
             }
          ],
-         "id" : 763,
+         "id" : 774,
          "string" : "the Keeper of the Flood of $"
       },
       {
@@ -11427,7 +11604,7 @@
                "value" : 3
             }
          ],
-         "id" : 764,
+         "id" : 775,
          "string" : "the Boatkeeper of $"
       },
       {
@@ -11443,7 +11620,7 @@
                "value" : 3
             }
          ],
-         "id" : 765,
+         "id" : 776,
          "string" : "the Wallkeeper of $"
       },
       {
@@ -11459,7 +11636,7 @@
                "value" : 3
             }
          ],
-         "id" : 766,
+         "id" : 777,
          "string" : "the Hammer of $"
       },
       {
@@ -11475,7 +11652,7 @@
                "value" : 3
             }
          ],
-         "id" : 767,
+         "id" : 778,
          "string" : "the Anvil of $"
       },
       {
@@ -11491,7 +11668,7 @@
                "value" : 3
             }
          ],
-         "id" : 768,
+         "id" : 779,
          "string" : "the Forester of $"
       },
       {
@@ -11507,7 +11684,7 @@
                "value" : 3
             }
          ],
-         "id" : 769,
+         "id" : 780,
          "string" : "the Dark Hand of $"
       },
       {
@@ -11523,7 +11700,7 @@
                "value" : 3
             }
          ],
-         "id" : 770,
+         "id" : 781,
          "string" : "the Shadow of $"
       },
       {
@@ -11534,10 +11711,12 @@
                "value" : 1
             },
             {
-               "type" : "unknown"
+               "field" : "hp",
+               "type" : "misc minimum",
+               "value" : 40
             }
          ],
-         "id" : 771,
+         "id" : 782,
          "string" : "the Beast of $"
       },
       {
@@ -11553,7 +11732,7 @@
                "value" : 3
             }
          ],
-         "id" : 772,
+         "id" : 783,
          "string" : "the Star of $"
       },
       {
@@ -11569,7 +11748,7 @@
                "value" : 3
             }
          ],
-         "id" : 773,
+         "id" : 784,
          "string" : "the Bright Mind of $"
       },
       {
@@ -11585,7 +11764,7 @@
                "value" : 3
             }
          ],
-         "id" : 774,
+         "id" : 785,
          "string" : "the Slaver of $"
       },
       {
@@ -11606,7 +11785,7 @@
                "value" : 3
             }
          ],
-         "id" : 775,
+         "id" : 786,
          "string" : "the Spirit of the Fear of $"
       },
       {
@@ -11622,7 +11801,7 @@
                "value" : 3
             }
          ],
-         "id" : 776,
+         "id" : 787,
          "string" : "the Judge of $"
       },
       {
@@ -11633,7 +11812,7 @@
                "value" : 1
             }
          ],
-         "id" : 777,
+         "id" : 788,
          "string" : "the First Priest of $"
       },
       {
@@ -11644,7 +11823,7 @@
                "value" : 1
             }
          ],
-         "id" : 778,
+         "id" : 789,
          "string" : "Enforcer of $'s Prophecies"
       },
       {
@@ -11655,7 +11834,7 @@
                "value" : 1
             }
          ],
-         "id" : 779,
+         "id" : 790,
          "string" : "Protector of $'s Name"
       },
       {
@@ -11670,7 +11849,7 @@
                "value" : "male"
             }
          ],
-         "id" : 780,
+         "id" : 791,
          "string" : "$'s Shield Man"
       },
       {
@@ -11686,7 +11865,7 @@
                "value" : 3
             }
          ],
-         "id" : 781,
+         "id" : 792,
          "string" : "the Herald of $"
       },
       {
@@ -11702,8 +11881,8 @@
                "value" : 3
             }
          ],
-         "id" : 782,
-         "string" : "the Wisperer of $'s Names"
+         "id" : 793,
+         "string" : "the Whisperer of $'s Names"
       },
       {
          "constraints" : [
@@ -11713,7 +11892,7 @@
                "value" : 1
             }
          ],
-         "id" : 783,
+         "id" : 794,
          "string" : "Mighty One of $"
       },
       {
@@ -11729,7 +11908,7 @@
                "value" : 3
             }
          ],
-         "id" : 784,
+         "id" : 795,
          "string" : "Star out of $"
       },
       {
@@ -11740,7 +11919,7 @@
                "value" : 1
             }
          ],
-         "id" : 785,
+         "id" : 796,
          "string" : "Only Potentate of $"
       },
       {
@@ -11756,7 +11935,7 @@
                "value" : 3
             }
          ],
-         "id" : 786,
+         "id" : 797,
          "string" : "Branch of $"
       },
       {
@@ -11767,7 +11946,7 @@
                "value" : 1
             }
          ],
-         "id" : 787,
+         "id" : 798,
          "string" : "Counselor of $"
       },
       {
@@ -11778,7 +11957,7 @@
                "value" : 1
             }
          ],
-         "id" : 788,
+         "id" : 799,
          "string" : "! who Gives Advice to $"
       },
       {
@@ -11789,7 +11968,7 @@
                "value" : 1
             }
          ],
-         "id" : 789,
+         "id" : 800,
          "string" : "First-begotten of $"
       },
       {
@@ -11819,7 +11998,7 @@
                "value" : 1
             }
          ],
-         "id" : 790,
+         "id" : 801,
          "string" : "! who even $ himself would consult"
       },
       {
@@ -11849,7 +12028,7 @@
                "value" : 1
             }
          ],
-         "id" : 791,
+         "id" : 802,
          "string" : "! who even $ herself would consult"
       },
       {
@@ -11868,7 +12047,7 @@
                "value" : "male"
             }
          ],
-         "id" : 792,
+         "id" : 803,
          "string" : "Lover of $"
       },
       {
@@ -11887,7 +12066,7 @@
                "value" : "female"
             }
          ],
-         "id" : 793,
+         "id" : 804,
          "string" : "Lover of $"
       },
       {
@@ -11906,7 +12085,7 @@
                "value" : "male"
             }
          ],
-         "id" : 794,
+         "id" : 805,
          "string" : "Mistress of $"
       },
       {

@@ -1,7 +1,7 @@
 # Generate a map of unit/chassis ID to unit name for pretenders.
 #
 # Parses BaseU.csv and filters on dominion strength. This includes some 
-# false positives but we don't mind. Assumes working directory is ./scripts.
+# false positives but we don't mind.
 #
 # Thank you Larz for generating BaseU.csv
 # https://github.com/larzm42/dom5inspector/blob/gh-pages/gamedata/BaseU.csv
@@ -17,8 +17,8 @@ use JSON;
 # Parse BaseU.csv
 
 my $units = csv(
-	in => 'BaseU.csv',
-	sep_char => "\t",
+	in => 'scripts/BaseU.csv',
+	sep_char => ",",
 	headers => "auto"
 );
 
@@ -33,4 +33,4 @@ my %pretenders =
 	
 my $json = JSON->new->canonical->pretty;
 my $pretenders_json = $json->encode( { pretenders_by_id => \%pretenders } );
-write_text( '../src/pretenders.json', $pretenders_json );
+write_text( 'src/lib/pretenders.json', $pretenders_json );

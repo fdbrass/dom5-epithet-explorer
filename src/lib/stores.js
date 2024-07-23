@@ -8,5 +8,6 @@ export const MagicPathNames = readable({
 	S: 'Astral',
 	D: 'Death',
 	N: 'Nature',
+	G: 'Glamour',
 	B: 'Blood'
 });
